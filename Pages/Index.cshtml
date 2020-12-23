@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@using System.Text.Json;
+@using ByteClubSite.Models;
+
+<div class="container text-light">
+    <h1>Recent</h1>
+    <br />
+    <p>This site is under construction.</p>
+    <br /><br />
+    @{
+        string line;
+        System.IO.StreamReader jsonFile = new System.IO.StreamReader("wwwroot/data/posts.json"); //Get json for posts
+        while ((line = jsonFile.ReadLine()) != null) //While the file has unread lines  (THIS MIGHT READ BACKWARDS. CHECK)
+        {
+            line = line.Replace("\\u003C", "<").Replace("\\u003E", ">"); //This does nothing, but don't remove it because it might
+            BlogPost data = JsonSerializer.Deserialize<BlogPost>(line); //Turn json entry into BlogPost Object
+
+            //Display Post (VS keeps unindenting this. idk why)
+            //.Raw makes it so the < and > characters are actually read as tag syntax
+            <div>
+                <h2>@data.Title</h2>
+                <p>Posted by: @data.Author</p>
+                <div>
+                    @Html.Raw(data.Body)
+                </div>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,66 @@
+﻿@page
+@model ByteClubSite.Pages.CreatePostModel
+@{
+}
+
+<br />
+<h2 class="text-info">Create New Post</h2>
+<br />
+
+<div class="border container" style="padding:20px">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="BlogPost.Title" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="BlogPost.Title" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="BlogPost.Title" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="BlogPost.Author" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="BlogPost.Author" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="BlogPost.Author" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="BlogPost.Body" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <textarea rows="4" cols="50" asp-for="BlogPost.Body" class="form-control"></textarea>
+            </div>
+            <br />
+            <span asp-validation-for="BlogPost.Body" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="BlogPost.Images" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <input type="file" multiple asp-for="BlogPost.Images" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="BlogPost.Images" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <input type="submit" value="Create" class="btn btn-primary form-control" />
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
