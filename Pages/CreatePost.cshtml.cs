@@ -43,11 +43,17 @@ namespace ByteClubSite.Pages
                 }
             }
 
-
-            string jsonOutput = JsonSerializer.Serialize<BlogPost>(BlogPost); //form data made into json entry
-            using (var stream = new StreamWriter("data/posts.json", append: true)) //new writer that will append instead of overwrite
+            List<BlogPost> jsonList = new List<BlogPost>(); //List of Blog Posts
+            using (StreamReader stream = new StreamReader("wwwroot/data/posts.json"))
             {
-                stream.WriteLine(jsonOutput); //put json serializer data in json file 
+                jsonList = JsonSerializer.Deserialize<List<BlogPost>>(stream.ReadToEnd()); //Add pre-existing blog posts to list
+                stream.Close();
+            }
+            jsonList.Add(BlogPost); //add the new entry to list
+            string jsonOutput = JsonSerializer.Serialize<List<BlogPost>>(jsonList); //turn list into json-formatted string
+            using (StreamWriter stream = new StreamWriter("wwwroot/data/posts.json", append: false)) //new writer that will overwrite
+            {
+                stream.Write(jsonOutput); //put json serializer data in json file 
                 stream.Flush();
                 stream.Close();
             }

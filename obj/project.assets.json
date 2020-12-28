@@ -2,11 +2,109 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.0": {
+      "CurrieTechnologies.Razor.SweetAlert2/4.3.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "3.1.0",
-          "Microsoft.CodeAnalysis.Razor": "3.1.0"
+          "Microsoft.AspNetCore.Components": "3.1.10",
+          "Microsoft.AspNetCore.Components.Web": "3.1.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CurrieTechnologies.Razor.SweetAlert2.dll": {}
+        },
+        "build": {
+          "buildTransitive/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props": {}
+        }
+      },
+      "jQuery/1.7.0": {
+        "type": "package"
+      },
+      "jquery.datatables/1.10.15": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.7.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.10",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Options": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.10",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.10",
+          "Microsoft.JSInterop": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.10": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.10",
+          "Microsoft.AspNetCore.Components.Forms": "3.1.10",
+          "Microsoft.Extensions.DependencyInjection": "3.1.10",
+          "Microsoft.JSInterop": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Razor.Language": "3.1.10",
+          "Microsoft.CodeAnalysis.Razor": "3.1.10"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
@@ -15,12 +113,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "3.1.0",
-          "Microsoft.CodeAnalysis.Razor": "3.1.0",
-          "Microsoft.Extensions.DependencyModel": "3.1.0"
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "3.1.10",
+          "Microsoft.CodeAnalysis.Razor": "3.1.10",
+          "Microsoft.Extensions.DependencyModel": "3.1.6"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
@@ -35,7 +133,7 @@
           "buildTransitive/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Language/3.1.0": {
+      "Microsoft.AspNetCore.Razor.Language/3.1.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
@@ -162,10 +260,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Razor/3.1.0": {
+      "Microsoft.CodeAnalysis.Razor/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "3.1.0",
+          "Microsoft.AspNetCore.Razor.Language": "3.1.10",
           "Microsoft.CodeAnalysis.CSharp": "3.3.0",
           "Microsoft.CodeAnalysis.Common": "3.3.0"
         },
@@ -176,16 +274,77 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/3.1.0": {
+      "Microsoft.Extensions.DependencyInjection/3.1.10": {
         "type": "package",
         "dependencies": {
-          "System.Text.Json": "4.7.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/3.1.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "4.7.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Primitives": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.JSInterop/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.JSInterop.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/2.1.2": {
@@ -252,7 +411,7 @@
           }
         }
       },
-      "System.Text.Json/4.7.0": {
+      "System.Text.Json/4.7.2": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
@@ -269,52 +428,477 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "toastr/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.6.3"
+        }
       }
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.0": {
-      "sha512": "rXCWtoYzHe9rszNcbgl1k+wQU2dTSc+ersp3wFRv79FG7fTw1pljWqzzQ1CX7ipr40YArOp95IJACXUSE6mIpA==",
+    "CurrieTechnologies.Razor.SweetAlert2/4.3.1": {
+      "sha512": "webIp/GXLn/PcPBqrBOYJio7/JRX4vcK8ga1SzJKm9cZw0cvO6Ymx3JEb/b+jk29pU1fnq9iXnJOBROY714p8Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.extensions/3.1.0",
+      "path": "currietechnologies.razor.sweetalert2/4.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.xml",
-        "microsoft.aspnetcore.mvc.razor.extensions.3.1.0.nupkg.sha512",
-        "microsoft.aspnetcore.mvc.razor.extensions.nuspec",
-        "packageIcon.png"
+        "build/CurrieTechnologies.Razor.SweetAlert2.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props",
+        "buildTransitive/CurrieTechnologies.Razor.SweetAlert2.props",
+        "currietechnologies.razor.sweetalert2.4.3.1.nupkg.sha512",
+        "currietechnologies.razor.sweetalert2.nuspec",
+        "lib/netstandard2.0/CurrieTechnologies.Razor.SweetAlert2.dll",
+        "staticwebassets/bootstrap4Theme.css",
+        "staticwebassets/bootstrap4Theme.js",
+        "staticwebassets/bootstrap4Theme.min.css",
+        "staticwebassets/bootstrap4Theme.min.js",
+        "staticwebassets/borderlessTheme.css",
+        "staticwebassets/borderlessTheme.js",
+        "staticwebassets/borderlessTheme.min.css",
+        "staticwebassets/borderlessTheme.min.js",
+        "staticwebassets/bulmaTheme.css",
+        "staticwebassets/bulmaTheme.js",
+        "staticwebassets/bulmaTheme.min.css",
+        "staticwebassets/bulmaTheme.min.js",
+        "staticwebassets/darkTheme.css",
+        "staticwebassets/darkTheme.js",
+        "staticwebassets/darkTheme.min.css",
+        "staticwebassets/darkTheme.min.js",
+        "staticwebassets/defaultTheme.css",
+        "staticwebassets/defaultTheme.js",
+        "staticwebassets/defaultTheme.min.css",
+        "staticwebassets/defaultTheme.min.js",
+        "staticwebassets/materialUITheme.css",
+        "staticwebassets/materialUITheme.js",
+        "staticwebassets/materialUITheme.min.css",
+        "staticwebassets/materialUITheme.min.js",
+        "staticwebassets/minimalTheme.css",
+        "staticwebassets/minimalTheme.js",
+        "staticwebassets/minimalTheme.min.css",
+        "staticwebassets/minimalTheme.min.js",
+        "staticwebassets/sweetAlert2.ieCompat.js",
+        "staticwebassets/sweetAlert2.ieCompat.min.js",
+        "staticwebassets/sweetAlert2.js",
+        "staticwebassets/sweetAlert2.min.js",
+        "staticwebassets/wordpressAdminTheme.css",
+        "staticwebassets/wordpressAdminTheme.js",
+        "staticwebassets/wordpressAdminTheme.min.css",
+        "staticwebassets/wordpressAdminTheme.min.js"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.0": {
-      "sha512": "SihuJFWfV6pRz5/yQm46luEQcoFIaDW+TDQBgAuRZeSKYJiGPmnUqpLX95ZcCwP7bd2pg5CwFA5el4C3KpfSGg==",
+    "jQuery/1.7.0": {
+      "sha512": "UEZuBreHZNLao3z9zNPeSadyoPwKDP/5kFh+Mn1Pm9ZS0czk7bv0O6RreloGSIMAfTLZCiigNkuPb2bXKtUM+g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.0",
+      "path": "jquery/1.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.7-vsdoc.js",
+        "Content/Scripts/jquery-1.7.js",
+        "Content/Scripts/jquery-1.7.min.js",
+        "Tools/install.ps1",
+        "Tools/jquery-1.7-vsdoc-para.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.7.0.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jquery.datatables/1.10.15": {
+      "sha512": "9zRZ5zYafJHOwLU6sWoTM/agRx/dlu0HGQpGD/hEvqSEUJhSQjqJNTq77I97B+LCbh4eJrmNDS9PENiYY+0Isg==",
+      "type": "package",
+      "path": "jquery.datatables/1.10.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/DataTables/css/autoFill.bootstrap.css",
+        "Content/Content/DataTables/css/autoFill.bootstrap.min.css",
+        "Content/Content/DataTables/css/autoFill.bootstrap4.css",
+        "Content/Content/DataTables/css/autoFill.bootstrap4.min.css",
+        "Content/Content/DataTables/css/autoFill.dataTables.css",
+        "Content/Content/DataTables/css/autoFill.dataTables.min.css",
+        "Content/Content/DataTables/css/autoFill.foundation.css",
+        "Content/Content/DataTables/css/autoFill.foundation.min.css",
+        "Content/Content/DataTables/css/autoFill.jqueryui.css",
+        "Content/Content/DataTables/css/autoFill.jqueryui.min.css",
+        "Content/Content/DataTables/css/autoFill.semanticui.css",
+        "Content/Content/DataTables/css/autoFill.semanticui.min.css",
+        "Content/Content/DataTables/css/buttons.bootstrap.css",
+        "Content/Content/DataTables/css/buttons.bootstrap.min.css",
+        "Content/Content/DataTables/css/buttons.bootstrap4.css",
+        "Content/Content/DataTables/css/buttons.bootstrap4.min.css",
+        "Content/Content/DataTables/css/buttons.dataTables.css",
+        "Content/Content/DataTables/css/buttons.dataTables.min.css",
+        "Content/Content/DataTables/css/buttons.foundation.css",
+        "Content/Content/DataTables/css/buttons.foundation.min.css",
+        "Content/Content/DataTables/css/buttons.jqueryui.css",
+        "Content/Content/DataTables/css/buttons.jqueryui.min.css",
+        "Content/Content/DataTables/css/buttons.semanticui.css",
+        "Content/Content/DataTables/css/buttons.semanticui.min.css",
+        "Content/Content/DataTables/css/colReorder.bootstrap.css",
+        "Content/Content/DataTables/css/colReorder.bootstrap.min.css",
+        "Content/Content/DataTables/css/colReorder.bootstrap4.css",
+        "Content/Content/DataTables/css/colReorder.bootstrap4.min.css",
+        "Content/Content/DataTables/css/colReorder.dataTables.css",
+        "Content/Content/DataTables/css/colReorder.dataTables.min.css",
+        "Content/Content/DataTables/css/colReorder.foundation.css",
+        "Content/Content/DataTables/css/colReorder.foundation.min.css",
+        "Content/Content/DataTables/css/colReorder.jqueryui.css",
+        "Content/Content/DataTables/css/colReorder.jqueryui.min.css",
+        "Content/Content/DataTables/css/colReorder.semanticui.css",
+        "Content/Content/DataTables/css/colReorder.semanticui.min.css",
+        "Content/Content/DataTables/css/common.scss",
+        "Content/Content/DataTables/css/dataTables.bootstrap.css",
+        "Content/Content/DataTables/css/dataTables.bootstrap.min.css",
+        "Content/Content/DataTables/css/dataTables.bootstrap4.css",
+        "Content/Content/DataTables/css/dataTables.bootstrap4.min.css",
+        "Content/Content/DataTables/css/dataTables.foundation.css",
+        "Content/Content/DataTables/css/dataTables.foundation.min.css",
+        "Content/Content/DataTables/css/dataTables.jqueryui.css",
+        "Content/Content/DataTables/css/dataTables.jqueryui.min.css",
+        "Content/Content/DataTables/css/dataTables.material.css",
+        "Content/Content/DataTables/css/dataTables.material.min.css",
+        "Content/Content/DataTables/css/dataTables.semanticui.css",
+        "Content/Content/DataTables/css/dataTables.semanticui.min.css",
+        "Content/Content/DataTables/css/dataTables.uikit.css",
+        "Content/Content/DataTables/css/dataTables.uikit.min.css",
+        "Content/Content/DataTables/css/fixedColumns.bootstrap.css",
+        "Content/Content/DataTables/css/fixedColumns.bootstrap.min.css",
+        "Content/Content/DataTables/css/fixedColumns.bootstrap4.css",
+        "Content/Content/DataTables/css/fixedColumns.bootstrap4.min.css",
+        "Content/Content/DataTables/css/fixedColumns.dataTables.css",
+        "Content/Content/DataTables/css/fixedColumns.dataTables.min.css",
+        "Content/Content/DataTables/css/fixedColumns.foundation.css",
+        "Content/Content/DataTables/css/fixedColumns.foundation.min.css",
+        "Content/Content/DataTables/css/fixedColumns.jqueryui.css",
+        "Content/Content/DataTables/css/fixedColumns.jqueryui.min.css",
+        "Content/Content/DataTables/css/fixedColumns.semanticui.css",
+        "Content/Content/DataTables/css/fixedColumns.semanticui.min.css",
+        "Content/Content/DataTables/css/fixedHeader.bootstrap.css",
+        "Content/Content/DataTables/css/fixedHeader.bootstrap.min.css",
+        "Content/Content/DataTables/css/fixedHeader.bootstrap4.css",
+        "Content/Content/DataTables/css/fixedHeader.bootstrap4.min.css",
+        "Content/Content/DataTables/css/fixedHeader.dataTables.css",
+        "Content/Content/DataTables/css/fixedHeader.dataTables.min.css",
+        "Content/Content/DataTables/css/fixedHeader.foundation.css",
+        "Content/Content/DataTables/css/fixedHeader.foundation.min.css",
+        "Content/Content/DataTables/css/fixedHeader.jqueryui.css",
+        "Content/Content/DataTables/css/fixedHeader.jqueryui.min.css",
+        "Content/Content/DataTables/css/fixedHeader.semanticui.css",
+        "Content/Content/DataTables/css/fixedHeader.semanticui.min.css",
+        "Content/Content/DataTables/css/jquery.dataTables.css",
+        "Content/Content/DataTables/css/jquery.dataTables.min.css",
+        "Content/Content/DataTables/css/jquery.dataTables_themeroller.css",
+        "Content/Content/DataTables/css/keyTable.bootstrap.css",
+        "Content/Content/DataTables/css/keyTable.bootstrap.min.css",
+        "Content/Content/DataTables/css/keyTable.bootstrap4.css",
+        "Content/Content/DataTables/css/keyTable.bootstrap4.min.css",
+        "Content/Content/DataTables/css/keyTable.dataTables.css",
+        "Content/Content/DataTables/css/keyTable.dataTables.min.css",
+        "Content/Content/DataTables/css/keyTable.foundation.css",
+        "Content/Content/DataTables/css/keyTable.foundation.min.css",
+        "Content/Content/DataTables/css/keyTable.jqueryui.css",
+        "Content/Content/DataTables/css/keyTable.jqueryui.min.css",
+        "Content/Content/DataTables/css/keyTable.semanticui.css",
+        "Content/Content/DataTables/css/keyTable.semanticui.min.css",
+        "Content/Content/DataTables/css/mixins.scss",
+        "Content/Content/DataTables/css/responsive.bootstrap.css",
+        "Content/Content/DataTables/css/responsive.bootstrap.min.css",
+        "Content/Content/DataTables/css/responsive.bootstrap4.css",
+        "Content/Content/DataTables/css/responsive.bootstrap4.min.css",
+        "Content/Content/DataTables/css/responsive.dataTables.css",
+        "Content/Content/DataTables/css/responsive.dataTables.min.css",
+        "Content/Content/DataTables/css/responsive.foundation.css",
+        "Content/Content/DataTables/css/responsive.foundation.min.css",
+        "Content/Content/DataTables/css/responsive.jqueryui.css",
+        "Content/Content/DataTables/css/responsive.jqueryui.min.css",
+        "Content/Content/DataTables/css/responsive.semanticui.css",
+        "Content/Content/DataTables/css/responsive.semanticui.min.css",
+        "Content/Content/DataTables/css/rowGroup.bootstrap.css",
+        "Content/Content/DataTables/css/rowGroup.bootstrap.min.css",
+        "Content/Content/DataTables/css/rowGroup.bootstrap4.css",
+        "Content/Content/DataTables/css/rowGroup.bootstrap4.min.css",
+        "Content/Content/DataTables/css/rowGroup.dataTables.css",
+        "Content/Content/DataTables/css/rowGroup.dataTables.min.css",
+        "Content/Content/DataTables/css/rowGroup.foundation.css",
+        "Content/Content/DataTables/css/rowGroup.foundation.min.css",
+        "Content/Content/DataTables/css/rowGroup.jqueryui.css",
+        "Content/Content/DataTables/css/rowGroup.jqueryui.min.css",
+        "Content/Content/DataTables/css/rowGroup.semanticui.css",
+        "Content/Content/DataTables/css/rowGroup.semanticui.min.css",
+        "Content/Content/DataTables/css/rowReorder.bootstrap.css",
+        "Content/Content/DataTables/css/rowReorder.bootstrap.min.css",
+        "Content/Content/DataTables/css/rowReorder.bootstrap4.css",
+        "Content/Content/DataTables/css/rowReorder.bootstrap4.min.css",
+        "Content/Content/DataTables/css/rowReorder.dataTables.css",
+        "Content/Content/DataTables/css/rowReorder.dataTables.min.css",
+        "Content/Content/DataTables/css/rowReorder.foundation.css",
+        "Content/Content/DataTables/css/rowReorder.foundation.min.css",
+        "Content/Content/DataTables/css/rowReorder.jqueryui.css",
+        "Content/Content/DataTables/css/rowReorder.jqueryui.min.css",
+        "Content/Content/DataTables/css/rowReorder.semanticui.css",
+        "Content/Content/DataTables/css/rowReorder.semanticui.min.css",
+        "Content/Content/DataTables/css/scroller.bootstrap.css",
+        "Content/Content/DataTables/css/scroller.bootstrap.min.css",
+        "Content/Content/DataTables/css/scroller.bootstrap4.css",
+        "Content/Content/DataTables/css/scroller.bootstrap4.min.css",
+        "Content/Content/DataTables/css/scroller.dataTables.css",
+        "Content/Content/DataTables/css/scroller.dataTables.min.css",
+        "Content/Content/DataTables/css/scroller.foundation.css",
+        "Content/Content/DataTables/css/scroller.foundation.min.css",
+        "Content/Content/DataTables/css/scroller.jqueryui.css",
+        "Content/Content/DataTables/css/scroller.jqueryui.min.css",
+        "Content/Content/DataTables/css/scroller.semanticui.css",
+        "Content/Content/DataTables/css/scroller.semanticui.min.css",
+        "Content/Content/DataTables/css/select.bootstrap.css",
+        "Content/Content/DataTables/css/select.bootstrap.min.css",
+        "Content/Content/DataTables/css/select.bootstrap4.css",
+        "Content/Content/DataTables/css/select.bootstrap4.min.css",
+        "Content/Content/DataTables/css/select.dataTables.css",
+        "Content/Content/DataTables/css/select.dataTables.min.css",
+        "Content/Content/DataTables/css/select.foundation.css",
+        "Content/Content/DataTables/css/select.foundation.min.css",
+        "Content/Content/DataTables/css/select.jqueryui.css",
+        "Content/Content/DataTables/css/select.jqueryui.min.css",
+        "Content/Content/DataTables/css/select.semanticui.css",
+        "Content/Content/DataTables/css/select.semanticui.min.css",
+        "Content/Content/DataTables/css/semanticui.scss",
+        "Content/Content/DataTables/images/details_close.png",
+        "Content/Content/DataTables/images/details_open.png",
+        "Content/Content/DataTables/images/sort_asc.png",
+        "Content/Content/DataTables/images/sort_asc_disabled.png",
+        "Content/Content/DataTables/images/sort_both.png",
+        "Content/Content/DataTables/images/sort_desc.png",
+        "Content/Content/DataTables/images/sort_desc_disabled.png",
+        "Content/Content/DataTables/swf/flashExport.swf",
+        "Content/Scripts/DataTables/autoFill.bootstrap.js",
+        "Content/Scripts/DataTables/autoFill.bootstrap.min.js",
+        "Content/Scripts/DataTables/autoFill.bootstrap4.js",
+        "Content/Scripts/DataTables/autoFill.bootstrap4.min.js",
+        "Content/Scripts/DataTables/autoFill.foundation.js",
+        "Content/Scripts/DataTables/autoFill.foundation.min.js",
+        "Content/Scripts/DataTables/autoFill.jqueryui.js",
+        "Content/Scripts/DataTables/autoFill.jqueryui.min.js",
+        "Content/Scripts/DataTables/autoFill.semanticui.js",
+        "Content/Scripts/DataTables/autoFill.semanticui.min.js",
+        "Content/Scripts/DataTables/buttons.bootstrap.js",
+        "Content/Scripts/DataTables/buttons.bootstrap.min.js",
+        "Content/Scripts/DataTables/buttons.bootstrap4.js",
+        "Content/Scripts/DataTables/buttons.bootstrap4.min.js",
+        "Content/Scripts/DataTables/buttons.colVis.js",
+        "Content/Scripts/DataTables/buttons.colVis.min.js",
+        "Content/Scripts/DataTables/buttons.flash.js",
+        "Content/Scripts/DataTables/buttons.flash.min.js",
+        "Content/Scripts/DataTables/buttons.foundation.js",
+        "Content/Scripts/DataTables/buttons.foundation.min.js",
+        "Content/Scripts/DataTables/buttons.html5.js",
+        "Content/Scripts/DataTables/buttons.html5.min.js",
+        "Content/Scripts/DataTables/buttons.jqueryui.js",
+        "Content/Scripts/DataTables/buttons.jqueryui.min.js",
+        "Content/Scripts/DataTables/buttons.print.js",
+        "Content/Scripts/DataTables/buttons.print.min.js",
+        "Content/Scripts/DataTables/buttons.semanticui.js",
+        "Content/Scripts/DataTables/buttons.semanticui.min.js",
+        "Content/Scripts/DataTables/dataTables.autoFill.js",
+        "Content/Scripts/DataTables/dataTables.autoFill.min.js",
+        "Content/Scripts/DataTables/dataTables.bootstrap.js",
+        "Content/Scripts/DataTables/dataTables.bootstrap.min.js",
+        "Content/Scripts/DataTables/dataTables.bootstrap4.js",
+        "Content/Scripts/DataTables/dataTables.bootstrap4.min.js",
+        "Content/Scripts/DataTables/dataTables.buttons.js",
+        "Content/Scripts/DataTables/dataTables.buttons.min.js",
+        "Content/Scripts/DataTables/dataTables.colReorder.js",
+        "Content/Scripts/DataTables/dataTables.colReorder.min.js",
+        "Content/Scripts/DataTables/dataTables.fixedColumns.js",
+        "Content/Scripts/DataTables/dataTables.fixedColumns.min.js",
+        "Content/Scripts/DataTables/dataTables.fixedHeader.js",
+        "Content/Scripts/DataTables/dataTables.fixedHeader.min.js",
+        "Content/Scripts/DataTables/dataTables.foundation.js",
+        "Content/Scripts/DataTables/dataTables.foundation.min.js",
+        "Content/Scripts/DataTables/dataTables.jqueryui.js",
+        "Content/Scripts/DataTables/dataTables.jqueryui.min.js",
+        "Content/Scripts/DataTables/dataTables.keyTable.js",
+        "Content/Scripts/DataTables/dataTables.keyTable.min.js",
+        "Content/Scripts/DataTables/dataTables.material.js",
+        "Content/Scripts/DataTables/dataTables.material.min.js",
+        "Content/Scripts/DataTables/dataTables.responsive.js",
+        "Content/Scripts/DataTables/dataTables.responsive.min.js",
+        "Content/Scripts/DataTables/dataTables.rowGroup.js",
+        "Content/Scripts/DataTables/dataTables.rowGroup.min.js",
+        "Content/Scripts/DataTables/dataTables.rowReorder.js",
+        "Content/Scripts/DataTables/dataTables.rowReorder.min.js",
+        "Content/Scripts/DataTables/dataTables.scroller.js",
+        "Content/Scripts/DataTables/dataTables.scroller.min.js",
+        "Content/Scripts/DataTables/dataTables.select.js",
+        "Content/Scripts/DataTables/dataTables.select.min.js",
+        "Content/Scripts/DataTables/dataTables.semanticui.js",
+        "Content/Scripts/DataTables/dataTables.semanticui.min.js",
+        "Content/Scripts/DataTables/dataTables.uikit.js",
+        "Content/Scripts/DataTables/dataTables.uikit.min.js",
+        "Content/Scripts/DataTables/jquery.dataTables.js",
+        "Content/Scripts/DataTables/jquery.dataTables.min.js",
+        "Content/Scripts/DataTables/responsive.bootstrap.js",
+        "Content/Scripts/DataTables/responsive.bootstrap.min.js",
+        "Content/Scripts/DataTables/responsive.bootstrap4.js",
+        "Content/Scripts/DataTables/responsive.bootstrap4.min.js",
+        "Content/Scripts/DataTables/responsive.foundation.js",
+        "Content/Scripts/DataTables/responsive.foundation.min.js",
+        "Content/Scripts/DataTables/responsive.jqueryui.js",
+        "Content/Scripts/DataTables/responsive.jqueryui.min.js",
+        "Content/Scripts/DataTables/responsive.semanticui.js",
+        "Content/Scripts/DataTables/responsive.semanticui.min.js",
+        "jquery.datatables.1.10.15.nupkg.sha512",
+        "jquery.datatables.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/3.1.10": {
+      "sha512": "hhPUTfYTFtyT9+TI0vmmz+QeR4BjPkLeuqgBAJIN02y77cawo60RU3v/x/8Tj4bBgIzSeBfyarwJk+o9Bj0hqQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/3.1.10": {
+      "sha512": "WCMq6vG5wFY+41wfaCd/54yvVPfcb5lHuqGDaBCDkx6DduKYSDq/qj6CreDzaT+QpibQlC2MsOUfJHZyvwOeJQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.10": {
+      "sha512": "E3AcukEtbV5VZk/dkjs6PINyVWsct3G+sK+jhhMgSXB6xuqt8X6wwAwrLYJ1BKAtXgtNJdBYciQAl0VOAdpJrw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/3.1.10": {
+      "sha512": "B/agF+PfFB7Fw2K5iP2B6jErFsC1KAopfd2l9289DJ9v6ev290hXs8Zpq4Lb+j6jp+LWVnIn/7+9/h+flWcVqA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/3.1.10": {
+      "sha512": "BrvCCdFaGdhj5VJxr3bndFEA0sC+7rgYhmZfoGRhPvIvtBVpxQlsdCZJU97scKZ4hwx4LgWqGCG5SwWkP/CsAQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.10": {
+      "sha512": "lKOEoTSwMgASq1y+0OgF3ZvrQLf/3KhAocKUb3zJIf7wcSPa+CLHzVdvwcDvpnglBsIDV+Dgu+ZsKvAnEmOTxw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.10": {
+      "sha512": "ZnqoWebWmZbe8/Ufwz32yGfbcVep7rWvx3sBWz0dyc2o6avoOuQU6b1rEbtUUB5e+wE6wOLxQtLXGOv9x5B3/w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.razor.extensions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.xml",
+        "microsoft.aspnetcore.mvc.razor.extensions.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.10": {
+      "sha512": "ye06vTRV3JmemCwNf93yogAci1VaxVu4uEGiFmEynlSjOVUl6A1dGWvgrklUTSFfcdnVRhHbZesWBrNNh9O4og==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
         "build/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "buildTransitive/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Language/3.1.0": {
-      "sha512": "e/atqZ5CzmJWuG/yaYOzbWNON+oqNKfk1M/xTYW+hje/RoiUUjVP88wrX1s9rEHzaAU4UljIOSvMxLABc2X2gg==",
+    "Microsoft.AspNetCore.Razor.Language/3.1.10": {
+      "sha512": "UOaI8gCLzZrL16iBjc1tf1RsYEpNKGQS3bw0v3XdJrkJ3hyts2JhL0pubD9DZJUaxKVHJPzyG5GNvGd81rLjtw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.language/3.1.0",
+      "path": "microsoft.aspnetcore.razor.language/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.xml",
-        "microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
-        "microsoft.aspnetcore.razor.language.nuspec",
-        "packageIcon.png"
+        "microsoft.aspnetcore.razor.language.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.3": {
@@ -413,27 +997,62 @@
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Razor/3.1.0": {
-      "sha512": "EI/9iVMneil8nZn7mqEujJvV63VRaz01Czc69NTrCQAh5CRfBvoeqBVsDx6oC9CIYla/AJYss+U4B/6Usecx7A==",
+    "Microsoft.CodeAnalysis.Razor/3.1.10": {
+      "sha512": "KAm7X+6krcVpn+lamN+J0mxR5bxGS9CP0EA4zWqEvxI2Aw3qX44VwCU6cqnLpztOs3twbqj4NJUin5whpi44Dw==",
       "type": "package",
-      "path": "microsoft.codeanalysis.razor/3.1.0",
+      "path": "microsoft.codeanalysis.razor/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.xml",
-        "microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
-        "microsoft.codeanalysis.razor.nuspec",
-        "packageIcon.png"
+        "microsoft.codeanalysis.razor.3.1.10.nupkg.sha512",
+        "microsoft.codeanalysis.razor.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/3.1.0": {
-      "sha512": "8tBjqI1xU3CNjdXMZF7BaY71ChU44x30QtHI2rVmPB3+3PjYi+YGhVTV5+IOlc40F81Bylh4gWwHET3jVKFE4Q==",
+    "Microsoft.Extensions.DependencyInjection/3.1.10": {
+      "sha512": "fla8hKhQmld2s/7arhUxlu3dzZLBFJLg4BQiQZdqKND4MlmnMU9jhoxY4MMlSYl6MtxumtwASHMJnuV9f96IQQ==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/3.1.0",
+      "path": "microsoft.extensions.dependencyinjection/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+      "sha512": "bhjtAN7Ix5WOAr47RK16Lr1l2eizSBMCYQSavkooZyf6Xdf8XWAYGWsGsPqUFOeeRxzhpRho051rXaLn5wskVw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyModel/3.1.6": {
+      "sha512": "/UlDKULIVkLQYn1BaHcy/rc91ApDxJb7T75HcCbGdqwvxhnRQRKM2di1E70iCPMF9zsr6f4EgQTotBGxFIfXmw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencymodel/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net451/Microsoft.Extensions.DependencyModel.dll",
@@ -444,8 +1063,70 @@
         "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.3.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+      "sha512": "bKHbgzbGsPZbEaExRaJqBz3WQ1GfhMttM23e1nivLJ8HbA3Ad526mW2G2K350q3Dc3HG83I5W8uSZWG4Rv4IpA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.10": {
+      "sha512": "CusdV4eIv+CGb9Fy6a+JcRqpcVJREmvFI8eHk3nQ76VLtEAIJpKQY5r5sRSs5w6NevNi2ukdnKleH0YCPudFZQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.10.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.10": {
+      "sha512": "YDuQS3BeaVY6PCWUm5f6qFTYsxhwntQrcfwUzbohU/0rZBL5XI+UsD5SgggHKHX+rFY4laaT428q608Sw/mDsw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.JSInterop/3.1.10": {
+      "sha512": "mIOidfUfRJhFdXi9flTu06vFgHP07OxnGiO3OI61sOioK5oVveWJg9UKTStnTELm5Vvd495O+WlhYjZtVRsKEg==",
+      "type": "package",
+      "path": "microsoft.jsinterop/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.dll",
+        "lib/netcoreapp3.1/Microsoft.JSInterop.xml",
+        "lib/netstandard2.0/Microsoft.JSInterop.dll",
+        "lib/netstandard2.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.3.1.10.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
@@ -590,13 +1271,14 @@
         "version.txt"
       ]
     },
-    "System.Text.Json/4.7.0": {
-      "sha512": "IPq/x/d5nAcnD3vIyM3AbPOaTgcqrh0AqPSx7U53UFu3M6k1TH1u/eXc9/h4jm/3mpP1WRUpevlPY4PACd7AWw==",
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "type": "package",
-      "path": "system.text.json/4.7.0",
+      "path": "system.text.json/4.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/System.Text.Json.dll",
@@ -605,7 +1287,7 @@
         "lib/netcoreapp3.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.4.7.0.nupkg.sha512",
+        "system.text.json.4.7.2.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -645,11 +1327,31 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "toastr/2.1.1": {
+      "sha512": "h/688XvzYk1xVYn213ryU+HCElE4n/drYzAHJkAi9LsSUPS3EbI6wGlvCglBUt7i4h5iESgAVarYaigjQmVpqg==",
+      "type": "package",
+      "path": "toastr/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/content/toastr.css",
+        "content/content/toastr.less",
+        "content/content/toastr.min.css",
+        "content/content/toastr.scss",
+        "content/scripts/toastr.js",
+        "content/scripts/toastr.min.js",
+        "toastr.2.1.1.nupkg.sha512",
+        "toastr.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.0"
+      "CurrieTechnologies.Razor.SweetAlert2 >= 4.3.1",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.10",
+      "jquery.datatables >= 1.10.15",
+      "toastr >= 2.1.1"
     ]
   },
   "packageFolders": {
@@ -696,9 +1398,21 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "CurrieTechnologies.Razor.SweetAlert2": {
+            "target": "Package",
+            "version": "[4.3.1, )"
+          },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.1.10, )"
+          },
+          "jquery.datatables": {
+            "target": "Package",
+            "version": "[1.10.15, )"
+          },
+          "toastr": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           }
         },
         "imports": [

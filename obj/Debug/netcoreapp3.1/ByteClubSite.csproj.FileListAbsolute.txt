@@ -365,13 +365,9 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
@@ -400,7 +396,6 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
@@ -450,8 +445,6 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -466,7 +459,6 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
@@ -477,10 +469,7 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
@@ -612,7 +601,6 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
@@ -706,4 +694,19 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.genruntimeconfig.cache
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\ByteClubSite.styles.css
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.csprojAssemblyReference.cache
-C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\data\posts.json
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\ByteClubSite.StaticWebAssets.xml
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\ManagePosts.cshtml.g.cs
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\EditPost.cshtml.g.cs
