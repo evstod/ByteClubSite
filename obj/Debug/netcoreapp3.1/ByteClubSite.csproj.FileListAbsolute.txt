@@ -1,6 +1,5 @@
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\ByteClubSite.exe
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.csprojAssemblyReference.cache
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.AssemblyInfoInputs.cache
@@ -705,3 +704,6 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.pdb
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.genruntimeconfig.cache
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\ByteClubSite.styles.css
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\ByteClubSite.csprojAssemblyReference.cache
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\data\posts.json

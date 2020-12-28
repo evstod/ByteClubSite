@@ -10,3 +10,21 @@ nav div a {
 .nav-item:hover .nav-item:focus {
     background-color: #464646;
 }
+
+/*Blog Post stuff*/
+.blog {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.blog-item {
+    border: 2px solid #B7B7B7;
+    border-radius: 10px;
+    box-shadow: 5px 3px #1C1C1C;
+    margin: 8px;
+    padding: 17px 15px 17px 16px;
+}
+.blog-item img {
+    
+}
