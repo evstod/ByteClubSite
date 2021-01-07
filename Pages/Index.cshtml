@@ -14,14 +14,7 @@
     <br /><br />
     <div class="container blog">
         @{
-            List<BlogPost> jsonList; //List of Blog Posts
-            using (StreamReader stream = new StreamReader("wwwroot/data/posts.json"))
-            {
-                jsonList = JsonSerializer.Deserialize<List<BlogPost>>(stream.ReadToEnd()); //Add blog posts to list
-                stream.Close();
-            }
-
-            foreach (var data in jsonList)
+            foreach (var data in Model.BlogPosts)
             {
                 //Display Post (VS keeps unindenting this. idk why)
                 //.Raw makes it so the < and > characters are actually read as tag syntax

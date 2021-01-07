@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ByteClubSite.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -10,16 +12,18 @@ namespace ByteClubSite.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ApplicationDbContext db)
         {
-            _logger = logger;
+            _db = db;
         }
 
-        public void OnGet()
-        {
 
+        public IEnumerable<BlogPost> BlogPosts { get; set; }
+        public async Task OnGet()
+        {
+            BlogPosts = await _db.BlogPost.ToListAsync();
         }
     }
 }

@@ -9,8 +9,8 @@ namespace ByteClubSite.Models
 {
     public class BlogPost
     {
-        [JsonIgnore]
-        public int Id { get; set; } //I dont remember why this is here.
+        [Key]
+        public int Id { get; set; }
 
         [Required]
         public string Author { get; set; }

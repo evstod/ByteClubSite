@@ -15,10 +15,13 @@ namespace ByteClubSite.Pages
 {
     public class CreatePostModel : PageModel
     {
+
         private IWebHostEnvironment _environment;
-        public CreatePostModel(IWebHostEnvironment environment)
+        private readonly ApplicationDbContext _db;
+        public CreatePostModel(IWebHostEnvironment environment, ApplicationDbContext db)
         {
             _environment = environment;
+            _db = db;
         }
 
         [BindProperty]
@@ -31,7 +34,7 @@ namespace ByteClubSite.Pages
         {
         }
 
-        public async Task OnPostAsync()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (Upload != null) //If there is a file specified in form
             {
@@ -43,19 +46,15 @@ namespace ByteClubSite.Pages
                 }
             }
 
-            List<BlogPost> jsonList = new List<BlogPost>(); //List of Blog Posts
-            using (StreamReader stream = new StreamReader("wwwroot/data/posts.json"))
+            if (ModelState.IsValid)
             {
-                jsonList = JsonSerializer.Deserialize<List<BlogPost>>(stream.ReadToEnd()); //Add pre-existing blog posts to list
-                stream.Close();
+                await _db.BlogPost.AddAsync(BlogPost);
+                await _db.SaveChangesAsync();
+                return RedirectToPage("Index");
             }
-            jsonList.Add(BlogPost); //add the new entry to list
-            string jsonOutput = JsonSerializer.Serialize<List<BlogPost>>(jsonList); //turn list into json-formatted string
-            using (StreamWriter stream = new StreamWriter("wwwroot/data/posts.json", append: false)) //new writer that will overwrite
+            else
             {
-                stream.Write(jsonOutput); //put json serializer data in json file 
-                stream.Flush();
-                stream.Close();
+                return Page();
             }
         }
     }

@@ -7,20 +7,22 @@ $(document).ready(function () {
 function loadDataTable() {
 	dataTable = $('#DT_load').DataTable({
 		"ajax": {
-			"url": "data/posts.json",
-			"dataSrc": ""
+			"url": "/api/blogpost",
+			"type": "GET",
+			"datatype": "json"
 		},
 		"columns": [
-			{ "data": "Author", "width": "33%" },
-			{ "data": "Title", "width": "33%" },
+			{ "data": "title", "width": "20%" },
+			{ "data": "author", "width": "20%" },
+			{ "data": "body", "width": "30%" },
 			{
-				"data": "title",
+				"data": "id",
 				"render": function (data) {
 					return `<div class="text-center">
-						<a href="/Edit?title=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;">Edit</a>
-						<a class="btn btn-danger text-white" style="cursor:pointer; width:70px;" onclick="Delete('/data/posts.json?title='+${data})">Delete</a>
+						<a href="/Edit?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;">Edit</a>
+						<a class="btn btn-danger text-white" style="cursor:pointer; width:70px;" onclick="Delete('/api/blogpost?id='+${data})">Delete</a>
 						</div>`;
-				}, "width": "33%"
+				}, "width": "30%"
 			}
 		],
 		"language": {
