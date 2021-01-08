@@ -28,3 +28,9 @@ nav div a {
 .blog-item img {
     
 }
+
+
+/*ManagePosts*/
+.dataTables_wrapper {
+    color: #f8f9fa;
+}
