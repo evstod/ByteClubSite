@@ -34,3 +34,7 @@ nav div a {
 .dataTables_wrapper {
     color: #f8f9fa;
 }
+div.scrollingCell {
+    max-height: 10em;
+    overflow: auto;
+}

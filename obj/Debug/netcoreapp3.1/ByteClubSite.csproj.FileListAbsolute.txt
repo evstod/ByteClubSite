@@ -770,3 +770,5 @@ C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\r
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Test.cshtml.g.cs
+C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Test.cshtml.g.cs

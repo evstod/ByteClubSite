@@ -14,12 +14,19 @@ function loadDataTable() {
 		"columns": [
 			{ "data": "title", "width": "20%" },
 			{ "data": "author", "width": "20%" },
-			{ "data": "body", "width": "30%" },
+			{
+				"data": "body", "width": "30%", scrollY: 100,
+				scroller: {
+					rowHeight: 100
+				},
+				scrollX: true,
+				scrollCollapse: true,
+				paging: true},
 			{
 				"data": "id",
 				"render": function (data) {
 					return `<div class="text-center">
-						<a href="/Edit?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;">Edit</a>
+						<a href="/EditPost?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;">Edit</a>
 						<a class="btn btn-danger text-white" style="cursor:pointer; width:70px;" onclick="Delete('/api/blogpost?id='+${data})">Delete</a>
 						</div>`;
 				}, "width": "30%"
