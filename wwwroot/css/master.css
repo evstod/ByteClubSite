@@ -38,3 +38,8 @@ div.scrollingCell {
     max-height: 10em;
     overflow: auto;
 }
+
+/*img mc*/
+.mcimg{
+    width: 50vw;
+}

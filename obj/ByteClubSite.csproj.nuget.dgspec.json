@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj": {}
+    "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj": {
+    "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
+        "projectUniqueName": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj",
         "projectName": "ByteClubSite",
-        "projectPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
-        "packagesPath": "C:\\Users\\edsto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\obj\\",
+        "projectPath": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj",
+        "packagesPath": "C:\\Users\\miles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\edsto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miles\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
