@@ -14,5 +14,6 @@ namespace ByteClubSite.Models
         }
 
         public DbSet<BlogPost> BlogPost { get; set; }
+        public DbSet<UserLogin> UserLogin { get; set; }
     }
 }
