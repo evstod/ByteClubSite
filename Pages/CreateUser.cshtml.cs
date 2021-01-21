@@ -45,6 +45,7 @@ namespace ByteClubSite.Pages
             }
             if (ModelState.IsValid)
             {
+                UserLogin.createDate = DateTimeNow;
                 await _db.UserLogin.AddAsync(UserLogin);
                 await _db.SaveChangesAsync();
                 return RedirectToPage("CreateUser");
