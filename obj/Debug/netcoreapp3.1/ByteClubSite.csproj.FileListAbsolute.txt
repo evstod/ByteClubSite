@@ -773,3 +773,6 @@ C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\r
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Test.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Test.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\ErrorAccessDenied.cshtml.g.cs
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\CreateUser.cshtml.g.cs

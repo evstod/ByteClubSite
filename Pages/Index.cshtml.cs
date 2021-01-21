@@ -1,4 +1,5 @@
 ﻿using ByteClubSite.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -19,11 +20,12 @@ namespace ByteClubSite.Pages
             _db = db;
         }
 
-
+        public string Username { get; set; }
         public IEnumerable<BlogPost> BlogPosts { get; set; }
         public async Task OnGet()
         {
             BlogPosts = await _db.BlogPost.ToListAsync();
+            Username = HttpContext.Session.GetString("username");
         }
     }
 }

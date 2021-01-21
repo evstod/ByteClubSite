@@ -20,10 +20,7 @@ namespace ByteClubSite.Pages
             _environment = environment;
             _db = db;
         }
-        public void OnGet()
-        {
-        
-        }
+
         [BindProperty]
         public string Username { get; set; }
 
@@ -32,6 +29,22 @@ namespace ByteClubSite.Pages
         public string Msg = "";
 
         public IEnumerable<UserLogin> UserLogins { get; set; }
+        public void OnGet()
+        {
+            if (HttpContext.Session.GetInt32("LogoutRequest") == 1)
+            {
+                HttpContext.Session.Clear();
+                //Stole this part from SO
+                //It's supposed to remove the session keys from the user cookies since the above line only clears the associated values
+                foreach (var cookie in Request.Cookies.Keys)
+                {
+                    if (cookie == ".AspNetCore.Session")
+                        Response.Cookies.Delete(cookie);
+                }
+                Msg = "You have been successfully logged out.";
+            }
+        }
+
         public async Task<IActionResult> OnPostAsync()
         {
             UserLogins = await _db.UserLogin
@@ -42,6 +55,7 @@ namespace ByteClubSite.Pages
                 if (entry.Password == Password)
                 {
                     HttpContext.Session.SetString("username", Username);
+                    HttpContext.Session.SetInt32("access", entry.hasEditorRights);
                     return RedirectToPage("Index");
                 }
             }

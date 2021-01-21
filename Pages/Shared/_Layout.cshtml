@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
 </head>
+@using Microsoft.AspNetCore.Http;
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
@@ -33,6 +34,37 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Minecraft">Minecraft Server</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/Minecraft">Minecraft Server</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu">
+                                @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+                                @{
+                                    if (HttpContextAccessor.HttpContext.Session.GetString("username") == null)
+                                    {
+                                        <a class="dropdown-item" asp-page="/Login">Log in</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="dropdown-item" asp-action="HttpContextAccessor.HttpContext.Session.SetInt32("logoutRequest", 1)" asp-page="/Login">Log out</a>
+                                    }
+
+                                    if (HttpContextAccessor.HttpContext.Session.GetInt32("access") >= 1)
+                                    {
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" asp-page="/ManagePosts">Manage Posts</a>
+                                        <a class="dropdown-item" asp-page="/CreatePost">Create Post</a>
+                                    }
+                                    if (HttpContextAccessor.HttpContext.Session.GetInt32("access") >= 2)
+                                    {
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" asp-page="/CreateUser">Create User</a>
+                                    }
+                                }
+                            </div>
                         </li>
                     </ul>
                 </div>

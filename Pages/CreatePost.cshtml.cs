@@ -30,8 +30,13 @@ namespace ByteClubSite.Pages
         [BindProperty]
         public BlogPost BlogPost { get; set; } //Link to Models/BlogPost Object
         //TODO: Increment Id each creation
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetInt32("access") != 1)
+            {
+                return RedirectToPage("ErrorAccessDenied");
+            }
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
