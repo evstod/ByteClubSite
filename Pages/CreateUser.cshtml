@@ -35,20 +35,15 @@
                 <label asp-for="UserLogin.hasEditorRights" class="text-light">Has Editor Rights</label>
             </div>
             <div class="col-6">
-                <input asp-for="UserLogin.hasEditorRights" type="checkbox" class="form-control" />
+                <input asp-for="hasEditorRightsTemp" type="checkbox" class="form-control" />
             </div>
             <br />
             <span asp-validation-for="UserLogin.hasEditorRights" class="text-danger"></span>
         </div>
-        <div class="form-group row">
-            <div class="col-4">
-                <label asp-for="UserLogin.createDate" class="text-light">Has Editor Rights</label>
-            </div>
+        <div class="form-group row" hidden>
             <div class="col-6">
-                <input asp-for="UserLogin.createDate" disabled value="@Model.DateTime" class="form-control" />
+                <input asp-for="UserLogin.createDate" disabled hidden value="@Model.DateTimeNow" class="form-control" />
             </div>
-            <br />
-            <span asp-validation-for="UserLogin.createDate" class="text-danger"></span>
         </div>
         <div class="form-group row">
             <div class="col-3 offset-4">

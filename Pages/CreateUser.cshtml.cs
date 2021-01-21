@@ -23,10 +23,11 @@ namespace ByteClubSite.Pages
 
         [BindProperty]
         public UserLogin UserLogin { get; set; } //Link to Models/UserLogin Object
-        public DateTime DateTime;
+        public bool hasEditorRightsTemp { get; set; } //To translate to UserLogin as int
+        public DateTime DateTimeNow = DateTime.Now;
         public IActionResult OnGet()
         {
-            if (HttpContext.Session.GetInt32("access") != 2)
+            if (HttpContext.Session.GetInt32("access") < 2 || HttpContext.Session.GetInt32("access") == null)
             {
                 return RedirectToPage("ErrorAccessDenied");
             }
@@ -34,6 +35,14 @@ namespace ByteClubSite.Pages
         }
 
         public async Task<IActionResult> OnPostAsync() {
+            if (hasEditorRightsTemp)
+            {
+                UserLogin.hasEditorRights = 1;
+            }
+            else
+            {
+                UserLogin.hasEditorRights = 0;
+            }
             if (ModelState.IsValid)
             {
                 await _db.UserLogin.AddAsync(UserLogin);

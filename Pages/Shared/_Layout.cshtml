@@ -49,7 +49,7 @@
                                     }
                                     else
                                     {
-                                        <a class="dropdown-item" asp-action="HttpContextAccessor.HttpContext.Session.SetInt32("logoutRequest", 1)" asp-page="/Login">Log out</a>
+                                        <a class="dropdown-item" asp-page="/Login">Log out</a>
                                     }
 
                                     if (HttpContextAccessor.HttpContext.Session.GetInt32("access") >= 1)

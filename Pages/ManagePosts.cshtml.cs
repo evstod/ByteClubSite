@@ -16,7 +16,7 @@ namespace ByteClubSite.Pages
     {
         public IActionResult OnGet()
         {
-            if (HttpContext.Session.GetInt32("access") != 1)
+            if (HttpContext.Session.GetInt32("access") < 1 || HttpContext.Session.GetInt32("access") == null)
             {
                 return RedirectToPage("ErrorAccessDenied");
             }

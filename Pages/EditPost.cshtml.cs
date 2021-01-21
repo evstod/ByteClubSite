@@ -32,7 +32,7 @@ namespace ByteClubSite.Pages
         public BlogPost BlogPost { get; set; }
         public async Task<IActionResult> OnGet(int id)
         {
-            if (HttpContext.Session.GetInt32("access") != 1)
+            if (HttpContext.Session.GetInt32("access") < 1 || HttpContext.Session.GetInt32("access") == null)
             {
                 return RedirectToPage("ErrorAccessDenied");
             }
