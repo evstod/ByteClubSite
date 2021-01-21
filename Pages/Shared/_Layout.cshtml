@@ -35,11 +35,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Minecraft">Minecraft Server</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Minecraft">Minecraft Server</a>
-                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu">
                                 @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
                                 @{
@@ -49,7 +46,7 @@
                                     }
                                     else
                                     {
-                                        <a class="dropdown-item" asp-page="/Login">Log out</a>
+                                        <a class="dropdown-item" asp-page="/Login" asp-route-id="1">Log out</a>
                                     }
 
                                     if (HttpContextAccessor.HttpContext.Session.GetInt32("access") >= 1)

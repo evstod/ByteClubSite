@@ -29,9 +29,9 @@ namespace ByteClubSite.Pages
         public string Msg = "";
 
         public IEnumerable<UserLogin> UserLogins { get; set; }
-        public void OnGet()
+        public void OnGet(int? id)
         {
-            if (HttpContext.Session.GetInt32("LogoutRequest") == 1)
+            if (id == 1)
             {
                 HttpContext.Session.Clear();
                 //Stole this part from SO
