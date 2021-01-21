@@ -10,7 +10,12 @@
 <div class="container text-light">
     <h1>Recent</h1>
     <br />
-    <p>This site is under construction.</p>
+    @{ 
+        if (@Model.Username != null)
+        {
+        <h2>Hello, @Model.Username</h2>
+        }
+    }
     <br /><br />
     <div class="container blog">
         @{

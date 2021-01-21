@@ -6772,23 +6772,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miles\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\edsto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj",
+      "projectUniqueName": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
       "projectName": "ByteClubSite",
-      "projectPath": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\ByteClubSite.csproj",
-      "packagesPath": "C:\\Users\\miles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miles\\OneDrive\\Documents\\GitHub\\ByteClubSite\\obj\\",
+      "projectPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
+      "packagesPath": "C:\\Users\\edsto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\miles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\edsto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -30,9 +30,14 @@ namespace ByteClubSite.Pages
 
         [BindProperty]
         public BlogPost BlogPost { get; set; }
-        public async Task OnGet(int id)
+        public async Task<IActionResult> OnGet(int id)
         {
+            if (HttpContext.Session.GetInt32("access") < 1 || HttpContext.Session.GetInt32("access") == null)
+            {
+                return RedirectToPage("ErrorAccessDenied");
+            }
             BlogPost = await _db.BlogPost.FindAsync(id);
+            return Page();
         }
 
         public async Task<IActionResult> OnPost()

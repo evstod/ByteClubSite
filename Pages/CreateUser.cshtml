@@ -1,0 +1,62 @@
+﻿@page
+@model ByteClubSite.Pages.CreateUserModel
+@{
+}
+
+<br />
+<h2 class="text-info">Create New User</h2>
+<br />
+
+<div class="border container" style="padding:20px">
+    <form method="post" enctype="multipart/form-data">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="UserLogin.Username" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="UserLogin.Username" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="UserLogin.Username" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="UserLogin.Password" class="text-light"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="UserLogin.Password" type="password" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="UserLogin.Password" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="UserLogin.hasEditorRights" class="text-light">Has Editor Rights</label>
+            </div>
+            <div class="col-6">
+                <input asp-for="hasEditorRightsTemp" type="checkbox" class="form-control" />
+            </div>
+            <br />
+            <span asp-validation-for="UserLogin.hasEditorRights" class="text-danger"></span>
+        </div>
+        <div class="form-group row" hidden>
+            <div class="col-6">
+                <input asp-for="UserLogin.createDate" disabled hidden value="@Model.DateTimeNow" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-4">
+                <input type="submit" value="Create" class="btn btn-primary form-control" />
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" OnClick="UploadBtn_Click" class="btn btn-success form-control">Return to Home</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
