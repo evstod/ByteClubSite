@@ -780,3 +780,5 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\CreateUser.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\ErrorAccessDenied.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Minecraft.cshtml.g.cs
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Minecraft.cshtml.g.cs
