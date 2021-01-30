@@ -7,7 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider;
 
 namespace ByteClubSite.Pages
 {
@@ -20,6 +23,8 @@ namespace ByteClubSite.Pages
             _environment = environment;
             _db = db;
         }
+
+
 
         [BindProperty]
         public string Username { get; set; }
