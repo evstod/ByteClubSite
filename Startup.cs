@@ -2,9 +2,6 @@ using ByteClubSite.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.Azure.KeyVault;
-using Microsoft.Azure.KeyVault.Models;
-using Microsoft.Azure.Services.AppAuthentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,7 +31,6 @@ namespace ByteClubSite
             services.AddMvc();
             services.AddSession();
             services.AddHttpContextAccessor();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +50,7 @@ namespace ByteClubSite
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSession();
+
             app.UseRouting();
 
             app.UseAuthorization();

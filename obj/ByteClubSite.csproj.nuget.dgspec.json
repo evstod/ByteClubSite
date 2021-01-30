@@ -52,14 +52,6 @@
               "target": "Package",
               "version": "[3.1.10, )"
             },
-            "Microsoft.Azure.KeyVault": {
-              "target": "Package",
-              "version": "[3.0.5, )"
-            },
-            "Microsoft.Azure.Services.AppAuthentication": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
