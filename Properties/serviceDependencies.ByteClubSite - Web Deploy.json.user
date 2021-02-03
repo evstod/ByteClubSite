@@ -1,11 +1,20 @@
 {
   "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-01-30T02:44:44.0393537Z"
+    },
     "mssql1": {
       "restored": true,
       "restoreTime": "2021-01-21T21:50:53.995608Z"
     }
   },
   "parameters": {
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "byteclubsite-rg"
+    },
     "mssql1.subscriptionId": {
       "Name": "mssql1.subscriptionId",
       "Type": "subscription",
@@ -15,6 +24,11 @@
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "ByteClubSite-dev-rg"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "2890a57f-cf7e-458a-9d80-e190f865cb9e"
     }
   }
 }
