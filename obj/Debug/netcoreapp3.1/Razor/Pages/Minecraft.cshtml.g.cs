@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\Minecraft.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "f1789828a7510b62c3e46a4ac5d745ef92f943a8"
+=======
+#pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\Minecraft.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "8dd182147d30d80abef66a170cbcb5b06c622e46"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\Minecraft.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "8dd182147d30d80abef66a170cbcb5b06c622e46"
 >>>>>>> parent of 04487e4... Fix Mobile View

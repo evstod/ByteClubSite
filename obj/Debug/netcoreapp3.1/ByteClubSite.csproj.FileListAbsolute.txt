@@ -776,6 +776,7 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\ErrorAccessDenied.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Minecraft.cshtml.g.cs
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Minecraft.cshtml.g.cs
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.dll
@@ -801,5 +802,7 @@ C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcore
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\ru\Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll
 C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll
+=======
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 >>>>>>> parent of 04487e4... Fix Mobile View

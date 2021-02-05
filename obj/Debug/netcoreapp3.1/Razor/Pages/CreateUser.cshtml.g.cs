@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "aca3188ff80f7496f7c3a8d54c1103fdc596b77c"
+=======
+#pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "c68cc334a07464c223fd3983bfb1e41edae6ba62"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #pragma checksum "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "c68cc334a07464c223fd3983bfb1e41edae6ba62"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -87,6 +91,9 @@ using ByteClubSite;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba627668", async() => {
                 WriteLiteral("\r\n        ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba627934", async() => {
+<<<<<<< HEAD
+>>>>>>> parent of 04487e4... Fix Mobile View
+=======
 >>>>>>> parent of 04487e4... Fix Mobile View
                 }
                 );
@@ -95,7 +102,11 @@ using ByteClubSite;
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 13 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 12 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 12 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -114,7 +125,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <div class=\"form-group row\">\r\n            <div class=\"col-4\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c9980", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba629703", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba629703", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -124,7 +139,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 16 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 15 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 15 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -144,7 +163,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"col-6\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c11652", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6211375", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6211375", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -154,7 +177,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 19 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 18 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 18 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -174,7 +201,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <br />\r\n            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c13300", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6213023", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6213023", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -184,7 +215,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 22 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 21 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 21 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -204,7 +239,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"form-group row\">\r\n            <div class=\"col-4\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c15081", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6214804", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6214804", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -214,7 +253,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 26 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 25 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 25 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -234,7 +277,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"col-6\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c16754", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6216477", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6216477", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -244,7 +291,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 29 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 28 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 28 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -266,7 +317,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <br />\r\n            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c18618", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6218341", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6218341", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -276,7 +331,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 32 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 31 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 31 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -296,7 +355,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"form-group row\">\r\n            <div class=\"col-4\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c20399", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6220122", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6220122", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -307,7 +370,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 36 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 35 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 35 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -327,7 +394,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"col-6\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c22135", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6221858", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6221858", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -337,7 +408,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 39 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 38 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 38 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -359,7 +434,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n            <br />\r\n            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c24000", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6223723", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6223723", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -369,7 +448,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 42 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 41 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 41 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -389,7 +472,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"form-group row\" hidden>\r\n            <div class=\"col-6\">\r\n                ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c25795", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6225518", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6225518", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -399,7 +486,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 46 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 45 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 45 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -418,7 +509,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 BeginWriteTagHelperAttribute();
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 46 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+=======
+#line 45 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
 #line 45 "C:\Users\Evan Stoddard\Creative Cloud Files\repos\ByteClubSite\Pages\CreateUser.cshtml"
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -448,7 +543,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             <div class=""col-3"">
                 ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c29045", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6228768", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c68cc334a07464c223fd3983bfb1e41edae6ba6228768", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View
@@ -489,7 +588,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             DefineSection("Scripts", async() => {
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aca3188ff80f7496f7c3a8d54c1103fdc596b77c31861", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6231584", async() => {
+>>>>>>> parent of 04487e4... Fix Mobile View
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c68cc334a07464c223fd3983bfb1e41edae6ba6231584", async() => {
 >>>>>>> parent of 04487e4... Fix Mobile View

@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "IBAFZxaACFbtt+ac0OHErvRmoVwlRHvmCc2j4DBZScFjDtKBEUhzAHQNl8157EdACKf34vByeWtJ3V6cP7Q0iQ==",
 =======
   "dgSpecHash": "R9YuC/hR9/lM4PbXCjlVArMsJ974aRcIUPOqh53qYNXNcsraAIyQ3MlmKhhLDybMCq+suasGcoWyxGjnVYie4A==",
@@ -177,6 +178,12 @@
     "C:\\Users\\edsto\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\edsto\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512"
 =======
+=======
+  "dgSpecHash": "R9YuC/hR9/lM4PbXCjlVArMsJ974aRcIUPOqh53qYNXNcsraAIyQ3MlmKhhLDybMCq+suasGcoWyxGjnVYie4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Evan Stoddard\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
+  "expectedPackageFiles": [
+>>>>>>> parent of 04487e4... Fix Mobile View
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\4.3.1\\currietechnologies.razor.sweetalert2.4.3.1.nupkg.sha512",
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
@@ -296,6 +303,9 @@
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> parent of 04487e4... Fix Mobile View
+=======
 >>>>>>> parent of 04487e4... Fix Mobile View
   ],
   "logs": [
