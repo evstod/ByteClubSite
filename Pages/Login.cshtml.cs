@@ -52,7 +52,7 @@ namespace ByteClubSite.Pages
                 .ToListAsync();
             foreach (var entry in UserLogins)
             {
-                if (entry.Password.ToString() == Password)
+                if (entry.Password == Password)
                 {
                     HttpContext.Session.SetString("username", Username);
                     HttpContext.Session.SetInt32("access", entry.hasEditorRights);
