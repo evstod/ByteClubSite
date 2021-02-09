@@ -43,3 +43,17 @@ div.scrollingCell {
 .mcimg{
     width: 50vw;
 }
+
+/*Current Class*/
+.currentClass {
+    border: 2px solid #B7B7B7;
+    border-radius: 10px;
+    box-shadow: 5px 3px #1C1C1C;
+    margin: 8px;
+    padding: 17px 15px 17px 16px;
+
+}
+.className{
+    font-weight: bold;
+    margin: 3px;
+}
