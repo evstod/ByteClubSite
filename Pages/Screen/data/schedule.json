@@ -1,0 +1,70 @@
+//Class Layout
+{
+  "schedule": 
+  [
+    {
+      "classname": "",
+      "period": 1,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    },
+    {
+      "classname": "",
+      "period": 2,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    },
+    {
+      "classname": "",
+      "period": 3,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    },
+    {
+      "classname": "",
+      "period": 4,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    },
+    {
+      "classname": "",
+      "period": 5,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    }
+    {
+      "classname": "",
+      "period": 6,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    }
+    {
+      "classname": "",
+      "period": 7,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    }
+    {
+      "classname": "",
+      "period": 8,
+      "isempty": true,
+      "start": "",
+      "startLate": "",
+      "startEarlyDismiss": ""
+    }
+  ]
+}

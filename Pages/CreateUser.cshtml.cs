@@ -24,6 +24,7 @@ namespace ByteClubSite.Pages
         [BindProperty]
         public UserLogin UserLogin { get; set; } //Link to Models/UserLogin Object
         public bool hasEditorRightsTemp { get; set; } //To translate to UserLogin as int
+        public string Msg { get; set; } //Input Error messages
         public DateTime DateTimeNow = DateTime.Now;
         public IActionResult OnGet()
         {
@@ -35,6 +36,17 @@ namespace ByteClubSite.Pages
         }
 
         public async Task<IActionResult> OnPostAsync() {
+            if (UserLogin.Username.Length > 50)
+            {
+                Msg = "Username must be 50 characters or less.";
+                return Page();
+            }
+            if (UserLogin.Password.Length > 50)
+            {
+                Msg = "Password must be 50 characters or less.";
+                return Page();
+            }
+
             if (hasEditorRightsTemp)
             {
                 UserLogin.hasEditorRights = 1;
@@ -52,6 +64,7 @@ namespace ByteClubSite.Pages
             }
             else
             {
+                Msg = "An error has occured in validating the login information.";
                 return Page();
             }
         }
