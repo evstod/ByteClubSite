@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Screen\Static\" />
     <Folder Include="wwwroot\img\uploads\" />
   </ItemGroup>
 

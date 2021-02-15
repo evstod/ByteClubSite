@@ -2,3 +2,21 @@
 @model ByteClubSite.Pages.Screen.ManageModel
 @{
 }
+
+<table id="DT_load" class="table table-striped table-bordered text-light" style="width:100%">
+    <thead>
+        <tr>
+            <th>Class</th>
+            <th>Body</th>
+            <th></th>
+            <th>Start Time</th>
+            <th>Start Time (late Start)</th>
+            <th>Start Time (Early Dismiss)</th>
+            <th>Start Time (Activity Schedule)</th>
+        </tr>
+    </thead>
+</table>
+
+@section Scripts{
+    <script src="~/js/ManageAgenda.js"></script>
+}
