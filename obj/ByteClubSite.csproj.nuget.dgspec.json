@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj": {}
+    "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj": {
+    "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
+        "projectUniqueName": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
         "projectName": "ByteClubSite",
-        "projectPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\ByteClubSite.csproj",
-        "packagesPath": "C:\\Users\\edsto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edsto\\Creative Cloud Files\\repos\\ByteClubSite\\obj\\",
+        "projectPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+        "packagesPath": "C:\\Users\\Evan Stoddard\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\edsto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Evan Stoddard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

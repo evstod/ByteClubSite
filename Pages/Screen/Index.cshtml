@@ -1,4 +1,29 @@
 ﻿@page
 @model ByteClubSite.Pages.Screen.IndexModel
 @{
+    ViewData["Title"] = "Class Assignments";
 }
+
+@using System.Text.Json;
+@using ByteClubSite.Models;
+@using System.IO;
+
+<div class="currentClass text-light">
+    <h2 class="className">Class Name</h2>
+    <p class="classDetails">Assignment </p>
+
+</div>
+<div class="currentClass">
+@{
+    foreach (var item in Model.Agendas)
+    {
+        <div class="classList text-light">
+            <h3 class="className text-light">Period @item.Id - @item.Class</h3>
+            <div class="text-light">
+                @Html.Raw(item.Body)
+            </div>
+        </div>
+    }
+}
+</div>
+
