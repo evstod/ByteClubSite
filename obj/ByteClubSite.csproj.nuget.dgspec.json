@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {}
+    "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {
+    "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+        "projectUniqueName": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
         "projectName": "ByteClubSite",
-        "projectPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+        "projectPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
         "packagesPath": "C:\\Users\\Evan Stoddard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\obj\\",
+        "outputPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -74,17 +74,9 @@
               "target": "Package",
               "version": "[3.1.3, )"
             },
-            "Microsoft.Extensions.Configuration.AzureKeyVault": {
-              "target": "Package",
-              "version": "[3.1.11, )"
-            },
             "Microsoft.IdentityModel.Clients.ActiveDirectory": {
               "target": "Package",
               "version": "[5.2.8, )"
-            },
-            "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider": {
-              "target": "Package",
-              "version": "[2.4.0, )"
             },
             "jquery.datatables": {
               "target": "Package",

@@ -206,59 +206,6 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
         }
       },
-      "Microsoft.Azure.KeyVault/2.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Azure.KeyVault.WebKey": "2.0.7",
-          "Microsoft.Rest.ClientRuntime": "[2.3.8, 3.0.0)",
-          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.7, 4.0.0)",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1",
-          "System.Net.Http": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {}
-        }
-      },
-      "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.2",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1",
-          "System.Collections": "4.0.11",
-          "System.Collections.Concurrent": "4.0.12",
-          "System.Linq": "4.1.0",
-          "System.Runtime": "4.1.0",
-          "System.Security.Cryptography.Algorithms": "4.2.0"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {}
-        }
-      },
-      "Microsoft.Azure.Services.AppAuthentication/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.2",
-          "NETStandard.Library": "1.6.1",
-          "System.Diagnostics.Process": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {}
-        },
-        "build": {
-          "build/_._": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "type": "package",
         "compile": {
@@ -596,16 +543,16 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.11": {
+      "Microsoft.Extensions.Configuration/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.11"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
@@ -618,34 +565,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.AzureKeyVault/3.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Azure.KeyVault": "2.3.2",
-          "Microsoft.Azure.Services.AppAuthentication": "1.0.3",
-          "Microsoft.Extensions.Configuration": "3.1.11",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.11"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.FileExtensions/3.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.11",
-          "Microsoft.Extensions.FileProviders.Physical": "3.1.11"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection/5.0.1": {
@@ -679,40 +598,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.11"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.FileProviders.Physical/3.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.11",
-          "Microsoft.Extensions.FileSystemGlobbing": "3.1.11"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
-        }
-      },
-      "Microsoft.Extensions.FileSystemGlobbing/3.1.11": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/5.0.0": {
@@ -907,74 +792,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Rest.ClientRuntime/2.3.8": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
-        }
-      },
-      "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Rest.ClientRuntime": "[2.3.8, 3.0.0)",
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
-        }
-      },
-      "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider/2.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/net472/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.dll": {}
-        },
-        "runtime": {
-          "lib/net472/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.dll": {}
-        },
-        "resource": {
-          "lib/net472/de/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net472/es/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net472/fr/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net472/it/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net472/ja/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net472/ko/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net472/pt-BR/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net472/ru/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net472/zh-Hans/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net472/zh-Hant/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -1488,49 +1305,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
-      "System.Diagnostics.Process/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.Win32.Primitives": "4.3.0",
-          "Microsoft.Win32.Registry": "4.3.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0",
-          "System.IO.FileSystem.Primitives": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.Handles": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Tasks": "4.3.0",
-          "System.Threading.Thread": "4.3.0",
-          "System.Threading.ThreadPool": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.4/System.Diagnostics.Process.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll": {
-            "assetType": "runtime",
-            "rid": "linux"
-          },
-          "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll": {
-            "assetType": "runtime",
-            "rid": "osx"
-          },
-          "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Diagnostics.Tools/4.3.0": {
@@ -2649,31 +2423,6 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Threading.Thread/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Threading.Thread.dll": {}
-        }
-      },
-      "System.Threading.ThreadPool/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Handles": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
-        }
-      },
       "System.Threading.Timer/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3337,58 +3086,6 @@
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
-    "Microsoft.Azure.KeyVault/2.3.2": {
-      "sha512": "A82ESUdfLz2wMhYuPxrwf/fA7JVt3IARgeMCG3TsaLtxUxa9RBKX3f0zdnKmvBvJ/u1/5g03OLR26GPekqY5HQ==",
-      "type": "package",
-      "path": "microsoft.azure.keyvault/2.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Azure.KeyVault.dll",
-        "lib/net452/Microsoft.Azure.KeyVault.runtimeconfig.json",
-        "lib/net452/Microsoft.Azure.KeyVault.xml",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.xml",
-        "microsoft.azure.keyvault.2.3.2.nupkg.sha512",
-        "microsoft.azure.keyvault.nuspec"
-      ]
-    },
-    "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
-      "sha512": "MVSYao62R9rwl9KF+IsJm+XBLupJj1ma2lfwNeFlSWziXGAopnYK+YkDWqABOqNIV9kpza/MvNBxITzhlJIyIw==",
-      "type": "package",
-      "path": "microsoft.azure.keyvault.webkey/2.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Azure.KeyVault.WebKey.dll",
-        "lib/net452/Microsoft.Azure.KeyVault.WebKey.runtimeconfig.json",
-        "lib/net452/Microsoft.Azure.KeyVault.WebKey.xml",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.xml",
-        "microsoft.azure.keyvault.webkey.2.0.7.nupkg.sha512",
-        "microsoft.azure.keyvault.webkey.nuspec"
-      ]
-    },
-    "Microsoft.Azure.Services.AppAuthentication/1.0.3": {
-      "sha512": "ywpQaK1klu1IoX4VUf+TBmU4kR71aWNI6O5rEIJU8z28L2xhJhnIm7k2Nf1Zu/PygeuOtt5g0QPCk5+lLltbeQ==",
-      "type": "package",
-      "path": "microsoft.azure.services.appauthentication/1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.Azure.Services.AppAuthentication.targets",
-        "lib/net452/Microsoft.Azure.Services.AppAuthentication.dll",
-        "lib/net452/Microsoft.Azure.Services.AppAuthentication.runtimeconfig.json",
-        "lib/net452/Microsoft.Azure.Services.AppAuthentication.xml",
-        "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll",
-        "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.xml",
-        "microsoft.azure.services.appauthentication.1.0.3.nupkg.sha512",
-        "microsoft.azure.services.appauthentication.nuspec"
-      ]
-    },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
       "type": "package",
@@ -3823,19 +3520,16 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration/3.1.11": {
-      "sha512": "EhuBsnUX22U5rMlRGczZIFUjSw1uonFaMChWEujjZwtgwdQblQHXoqkDGz/WBvTrOyXhM4fhttEIBuhbt40ysQ==",
+    "Microsoft.Extensions.Configuration/2.1.0": {
+      "sha512": "SS8ce1GYQTkZoOq5bskqQ+m7xiXQjnKRiGfVNZkkX2SX0HpXNRsKnSUaywRRuCje3v2KT9xeacsM3J9/G2exsQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/3.1.11",
+      "path": "microsoft.extensions.configuration/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.3.1.11.nupkg.sha512",
+        "microsoft.extensions.configuration.2.1.0.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
@@ -3857,36 +3551,6 @@
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.AzureKeyVault/3.1.11": {
-      "sha512": "VThRSFGcGQA0sPYqvhe9ZMQWR9j/UeqEAaH/BzEX+JpdFQJ6P+pfrxAAIYWNcD5xpXNhXPaNcZPEA6yXSPxd4g==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.azurekeyvault/3.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.xml",
-        "microsoft.extensions.configuration.azurekeyvault.3.1.11.nupkg.sha512",
-        "microsoft.extensions.configuration.azurekeyvault.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.FileExtensions/3.1.11": {
-      "sha512": "t3OReOIYG95WnEZ++8QsDhgeL1eAJXTxqIU8M0ICpUwZ2A+54Ql+gQkh5Ig4gcaBzIicvPT54D3uXdnGFcNsaw==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.fileextensions/3.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "microsoft.extensions.configuration.fileextensions.3.1.11.nupkg.sha512",
-        "microsoft.extensions.configuration.fileextensions.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyInjection/5.0.1": {
@@ -3953,52 +3617,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
         "microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.11": {
-      "sha512": "rKO1y4A+yds0UQYsDWzZKeC6EVM5SSRWsTFOfdzbk401TiJSifGYDcN6eeeyV62fU48XZToUO0OCchk6f0GYdw==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.11.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.FileProviders.Physical/3.1.11": {
-      "sha512": "XdhGXF23VZu+uW8Q1WCBosu2KXvP3cQF12a8vNVwf8GgIDmk/tRp7MaQQpKQRbP4gN6PfMTWbC7cDmU0PK6pIQ==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/3.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.3.1.11.nupkg.sha512",
-        "microsoft.extensions.fileproviders.physical.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.FileSystemGlobbing/3.1.11": {
-      "sha512": "wWpPgZz8Ts9rkfLkcf8T6+9yE1cK3dIQcaZCXyeTSBHnTPt+YYBai8dl/w4nyoXg2nijj0gFV9y0d+hAYTrhrg==",
-      "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/3.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.3.1.11.nupkg.sha512",
-        "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging/5.0.0": {
@@ -4326,64 +3944,6 @@
         "microsoft.netcore.targets.1.1.3.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.Rest.ClientRuntime/2.3.8": {
-      "sha512": "Hj96LBoCwKY2VQKfSCVGGPV1sSumVjuYnrlpBwL4JSTnSK4b6ZxjLtXj8LgmKav8xJ2gps+UN7eI3hHVFKvBFw==",
-      "type": "package",
-      "path": "microsoft.rest.clientruntime/2.3.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
-        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
-        "lib/net452/Microsoft.Rest.ClientRuntime.xml",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.xml",
-        "microsoft.rest.clientruntime.2.3.8.nupkg.sha512",
-        "microsoft.rest.clientruntime.nuspec"
-      ]
-    },
-    "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
-      "sha512": "6u8JIuvrztse4tPOcvNzAJuzGBP0uY+Ijggk8ZYhp0siGEZ1XfZylf1vpNGUicvwcrhhoIgDW73Z1L6QGssr2g==",
-      "type": "package",
-      "path": "microsoft.rest.clientruntime.azure/3.3.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
-        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.xml",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
-        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.xml",
-        "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512",
-        "microsoft.rest.clientruntime.azure.nuspec"
-      ]
-    },
-    "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider/2.4.0": {
-      "sha512": "jFrztt1Sq4oFrl9peLr466gFduRRKxSpMEK/R/8hZiZtYpBvo3fySEmat5OY/0zIAleqCOrkyu2B8Qznv5RaqA==",
-      "type": "package",
-      "path": "microsoft.sqlserver.management.alwaysencrypted.azurekeyvaultprovider/2.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License.md",
-        "MsftIcon.png",
-        "lib/net472/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.dll",
-        "lib/net472/de/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/es/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/fr/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/it/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/ja/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/ko/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/pt-BR/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/ru/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/zh-Hans/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "lib/net472/zh-Hant/Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.resources.dll",
-        "microsoft.sqlserver.management.alwaysencrypted.azurekeyvaultprovider.2.4.0.nupkg.sha512",
-        "microsoft.sqlserver.management.alwaysencrypted.azurekeyvaultprovider.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -5484,63 +5044,6 @@
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "System.Diagnostics.Process/4.3.0": {
-      "sha512": "J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
-      "type": "package",
-      "path": "system.diagnostics.process/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Diagnostics.Process.dll",
-        "lib/net461/System.Diagnostics.Process.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Diagnostics.Process.dll",
-        "ref/net461/System.Diagnostics.Process.dll",
-        "ref/netstandard1.3/System.Diagnostics.Process.dll",
-        "ref/netstandard1.3/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/de/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/es/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/fr/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/it/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/ja/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/ko/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/ru/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/zh-hans/System.Diagnostics.Process.xml",
-        "ref/netstandard1.3/zh-hant/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/System.Diagnostics.Process.dll",
-        "ref/netstandard1.4/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/de/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/es/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/fr/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/it/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/ja/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/ko/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/ru/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/zh-hans/System.Diagnostics.Process.xml",
-        "ref/netstandard1.4/zh-hant/System.Diagnostics.Process.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
-        "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
-        "runtimes/win/lib/net46/System.Diagnostics.Process.dll",
-        "runtimes/win/lib/net461/System.Diagnostics.Process.dll",
-        "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
-        "runtimes/win7/lib/netcore50/_._",
-        "system.diagnostics.process.4.3.0.nupkg.sha512",
-        "system.diagnostics.process.nuspec"
       ]
     },
     "System.Diagnostics.Tools/4.3.0": {
@@ -8779,86 +8282,6 @@
         "version.txt"
       ]
     },
-    "System.Threading.Thread/4.3.0": {
-      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
-      "type": "package",
-      "path": "system.threading.thread/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Threading.Thread.dll",
-        "lib/netcore50/_._",
-        "lib/netstandard1.3/System.Threading.Thread.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Threading.Thread.dll",
-        "ref/netstandard1.3/System.Threading.Thread.dll",
-        "ref/netstandard1.3/System.Threading.Thread.xml",
-        "ref/netstandard1.3/de/System.Threading.Thread.xml",
-        "ref/netstandard1.3/es/System.Threading.Thread.xml",
-        "ref/netstandard1.3/fr/System.Threading.Thread.xml",
-        "ref/netstandard1.3/it/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ja/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ko/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ru/System.Threading.Thread.xml",
-        "ref/netstandard1.3/zh-hans/System.Threading.Thread.xml",
-        "ref/netstandard1.3/zh-hant/System.Threading.Thread.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.thread.4.3.0.nupkg.sha512",
-        "system.threading.thread.nuspec"
-      ]
-    },
-    "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
-      "type": "package",
-      "path": "system.threading.threadpool/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Threading.ThreadPool.dll",
-        "lib/netcore50/_._",
-        "lib/netstandard1.3/System.Threading.ThreadPool.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Threading.ThreadPool.dll",
-        "ref/netstandard1.3/System.Threading.ThreadPool.dll",
-        "ref/netstandard1.3/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/de/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/es/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/fr/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/it/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/ja/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/ko/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/ru/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/zh-hans/System.Threading.ThreadPool.xml",
-        "ref/netstandard1.3/zh-hant/System.Threading.ThreadPool.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.threadpool.4.3.0.nupkg.sha512",
-        "system.threading.threadpool.nuspec"
-      ]
-    },
     "System.Threading.Timer/4.3.0": {
       "sha512": "Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "type": "package",
@@ -9214,9 +8637,7 @@
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
-      "Microsoft.Extensions.Configuration.AzureKeyVault >= 3.1.11",
       "Microsoft.IdentityModel.Clients.ActiveDirectory >= 5.2.8",
-      "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider >= 2.4.0",
       "jquery.datatables >= 1.10.15",
       "toastr >= 2.1.1"
     ]
@@ -9228,11 +8649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+      "projectUniqueName": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
       "projectName": "ByteClubSite",
-      "projectPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+      "projectPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
       "packagesPath": "C:\\Users\\Evan Stoddard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Evan Stoddard\\Source\\Repos\\probablyatraitor\\ByteClubSite\\obj\\",
+      "outputPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9295,17 +8716,9 @@
             "target": "Package",
             "version": "[3.1.3, )"
           },
-          "Microsoft.Extensions.Configuration.AzureKeyVault": {
-            "target": "Package",
-            "version": "[3.1.11, )"
-          },
           "Microsoft.IdentityModel.Clients.ActiveDirectory": {
             "target": "Package",
             "version": "[5.2.8, )"
-          },
-          "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider": {
-            "target": "Package",
-            "version": "[2.4.0, )"
           },
           "jquery.datatables": {
             "target": "Package",
@@ -9337,17 +8750,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider 2.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }
