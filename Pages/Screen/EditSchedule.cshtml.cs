@@ -29,7 +29,7 @@ namespace ByteClubSite.Pages.Screen
             {
                 if (!data.Active)
                 {
-                    data.Class = "_"; data.Body = "_";
+                    data.Class = "No Class Scheduled."; data.Body = " "; //Clear agenda view if there is no class
                 }
             }
             int i = 1; //Yes I know incrementing a variable inside a for loop makes no sense, but just using data.Id doesn't work for reasons I don't quite understand
@@ -40,6 +40,7 @@ namespace ByteClubSite.Pages.Screen
                 {
                     var AgendaFromDb = _db.Agenda.Find(i);
                     AgendaFromDb.Class = data.Class;
+                    AgendaFromDb.Body = data.Body;
                     AgendaFromDb.StartTime = data.StartTime;
                     AgendaFromDb.StartLate = data.StartLate;
                     AgendaFromDb.StartEarlyDismiss = data.StartEarlyDismiss;
@@ -49,7 +50,7 @@ namespace ByteClubSite.Pages.Screen
                 }
                 else
                 {
-                    return RedirectToPage("Index");
+                    return RedirectToPage("EditSchedule");
                 }
                 i++;
             }

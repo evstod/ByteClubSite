@@ -10,9 +10,7 @@ namespace ByteClubSite.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
         public string Class { get; set; }
-        [Required]
         public string Body { get; set; }
         [Required]
         public TimeSpan StartTime { get; set; }

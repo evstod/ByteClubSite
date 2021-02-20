@@ -17,11 +17,20 @@
             @{ 
                 for (int i = 0; i < Model.Agendas.Count(); i++)
                 {
-                        <tr id="@Model.Agendas[i].Id">
+                        <tr>
                             <td>@Model.Agendas[i].Id</td>
                             <td>
                                 <div>
-                                    <input asp-for="@Model.Agendas[i].Class" class="form-control" />
+                                    @{ //This part checks if the Agenda is active, and adds the disabled attribute as necessary
+                                        if (Model.Agendas[i].Active)
+                                        {
+                                            <input asp-for="@Model.Agendas[i].Class" class="form-control" id="@(Model.Agendas[i].Id + "" + 'a')" />
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="@Model.Agendas[i].Class" class="form-control" id="@(Model.Agendas[i].Id + "" + 'a')" disabled value="Inactive"/>
+                                        }
+                                    }
                                 </div>
                                 <br />
                                 <span asp-validation-for="@Model.Agendas[i].Class" class="text-danger"></span>
@@ -57,7 +66,7 @@
                             </td>
                             <td>
                                 <div>
-                                    <input asp-for="@Model.Agendas[i].Active" class="form-control" type="checkbox" onchange="activeState(@Model.Agendas[i].Id)"/>
+                                    <input asp-for="@Model.Agendas[i].Active" class="form-control" type="checkbox" id="@(Model.Agendas[i].Id + "" + 'b')"/>
                                 </div>
                                 <br />
                                 <span asp-validation-for="@Model.Agendas[i].Active" class="text-danger"></span>
@@ -68,7 +77,6 @@
         </thead>
     </table>
     <input type="submit" value="Update" class="btn btn-primary form-control" />
-    <button onclick="AgendasUpdate">Update2</button>
 </form>
 
 
@@ -76,14 +84,24 @@
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
-    <script>
-        //FIXME
-        function activeState(id) {
-            if ($('#' + id + ':nth-child(8) div input').val() == false) {
-                $('#' + id + ':nth-child(2) div input').val('Inactive');
-                $('#' + id + ':nth-child(2) div input').attr('disabled', true);
-            }
-            else $('#' + id + ':nth-child(2) div input').attr('disabled', false);
+    @{ 
+        for (int i = 0; i < Model.Agendas.Count(); i++)
+        {
+        <script>
+                $('#' + @Model.Agendas[i].Id + 'b').on('change', function () {
+                    console.log("a " + $('#' + @Model.Agendas[i].Id + 'b:checked').val());
+                    if (!$('#' + @Model.Agendas[i].Id + 'b:checked').val()) {
+                        $('#' + @Model.Agendas[i].Id + 'a').val('Inactive');
+                        $('#' + @Model.Agendas[i].Id + 'a').attr('disabled', "true");
+                        console.log("if");
+                    }
+                    else {
+                        $('#' + @Model.Agendas[i].Id + 'a').removeAttr('disabled');
+                        console.log("else");
+                    }
+                });
+        </script>
         }
-    </script>
+    }
 }
+
