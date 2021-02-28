@@ -4,26 +4,59 @@
     ViewData["Title"] = "Class Assignments";
 }
 
-@using System.Text.Json;
-@using ByteClubSite.Models;
-@using System.IO;
-
 <div class="currentClass text-light">
     <h2 class="className">Class Name</h2>
     <p class="classDetails">Assignment </p>
 
 </div>
-<div class="currentClass">
-@{
-    foreach (var item in Model.Agendas)
-    {
-        <div class="classList text-light">
-            <h3 class="className text-light">Period @item.Id - @item.Class</h3>
-            <div class="text-light">
-                @Html.Raw(item.Body)
-            </div>
+<div class="classes">
+    <div class="currentClass text-light">
+        <div class="currentClass_header">
+            <h1 id="dataClass"></h1>
+            <h4 id="dataIndex"></h4>
         </div>
-    }
-}
+        <div class="currentClass_body" id="dataBody"></div>
+    </div>
+    @*@{
+        foreach (var item in Model.Agendas)
+        {
+            <p class="text-light">@item.StartTime</p>
+        }
+        <p>@Model.AgendasList</p>
+    }*@
 </div>
 
+@section Scripts {
+    @*<script src="~/js/ScreenTimes.js"></script>*@
+<script>
+    var startTimes = JSON.parse('@Html.Raw(Json.Serialize(Model.AgendasList))'); //List of start times as milliseconds since EPOC
+    var dateNow = new Date();
+    var currentClass, nextClass; //Indexes of classes
+    var currentData; //Data for current class
+    for (var i = 0; i < startTimes.length; i++) {
+        console.log("loop");
+        if (dateNow.getTime() > startTimes[i] && i == 7) { //Current time is period 8 or after school
+            currentClass = i;
+            nextClass = 0;
+            startTimes[0] += 86400000; //Start time is at period 1 time tomorrow
+            break;
+        }
+        else if (dateNow.getTime() > startTimes[i] && dateNow.getTime() < startTimes[i + 1]) {
+            currentClass = i;
+            nextClass = i + 1;
+            break;
+        }
+    }
+    var currentData = JSON.parse('@Html.Raw(Json.Serialize(Model.Agendas))')[currentClass]; //Get data for current class
+    document.getElementById('dataClass').innerHTML = currentData.class;
+    document.getElementById('dataIndex').innerHTML = currentData.id;
+    document.getElementById('dataBody').innerHTML = currentData.body;
+
+    function refreshPage() {
+        location.reload(true);
+    }
+
+    setTimeout(refreshPage, startTimes[nextClass] - Date.now()); //Refresh the page after the amount of time to get to next period start time
+
+</script>
+}

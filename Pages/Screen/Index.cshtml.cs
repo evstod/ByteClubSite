@@ -18,10 +18,36 @@ namespace ByteClubSite.Pages.Screen
             _db = db;
         }
 
-        public IEnumerable<Agenda> Agendas;
+        public List<Agenda> Agendas;
+        public List<long> AgendasList = new List<long>();
+        public int ScheduleTimings = 0; //DEBUG
+        public int CurrentClassIndex = 0;
         public async Task OnGet()
         {
             Agendas = await _db.Agenda.ToListAsync();
+
+            foreach (var item in Agendas)
+            {
+                DateTime temp = DateTime.Now.Date; //Today but time is set to midnight
+                if (ScheduleTimings == 0)
+                {
+                    temp += item.StartTime;
+                }
+                else if (ScheduleTimings == 1)
+                {
+                    temp += item.StartLate;
+                }
+                else if (ScheduleTimings == 2)
+                {
+                    temp += item.StartEarlyDismiss;
+                }
+                else if (ScheduleTimings == 3)
+                {
+                    temp += item.StartActivity;
+                }
+
+                AgendasList.Add((long)(temp - new DateTime(1970, 1, 1)).TotalMilliseconds);
+            }
         }
     }
 }
