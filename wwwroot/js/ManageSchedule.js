@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 function loadDataTable() {
 	dataTable = $('#DT_load').DataTable({
+		"order": [[2, 'asc']],
 		"ajax": {
 			"url": "/api/agenda",
 			"type": "GET",

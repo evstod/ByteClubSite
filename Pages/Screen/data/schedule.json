@@ -1,6 +1,0 @@
-//Class Layout
-{
-  "options": {
-    "scheduleType": 0 //0 = default, 1 = Late Start, 2 = Early Dismiss, 3 = Activity
-  }
-}

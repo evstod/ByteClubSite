@@ -3,12 +3,40 @@
 @{
     ViewData["Title"] = "Class Assignments";
 }
+<style>
+    header, footer {
+        display: none;
+    }
+    .classes {
+        width: 100%;
+        margin: 5vh 0 5vh 0;
+    }
+    .currentClass {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .currentClass_header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
 
-<div class="currentClass text-light">
-    <h2 class="className">Class Name</h2>
-    <p class="classDetails">Assignment </p>
+        border-bottom: 1px solid #FFF;
+        margin-bottom: 2vh;
+    }
+    .currentClass_header h1 {
+        font-size: 450%;
+        padding-left: 20px;
+    }
+    .currentClass_header h4 {
+        font-size: 170%;
+        padding-right: 20px;
+    }
 
-</div>
+</style>
+
 <div class="classes">
     <div class="currentClass text-light">
         <div class="currentClass_header">
@@ -47,9 +75,21 @@
             break;
         }
     }
-    var currentData = JSON.parse('@Html.Raw(Json.Serialize(Model.Agendas))')[currentClass]; //Get data for current class
+    var dataString = '@Html.Raw(Json.Serialize(Model.Agendas))';
+    // preserve newlines, etc - use valid JSON
+    dataString = dataString.replace(/\\n/g, "\\n")
+        .replace(/\\'/g, "\\'")
+        .replace(/\\"/g, '\\"')
+        .replace(/\\&/g, "\\&")
+        .replace(/\\r/g, "\\r")
+        .replace(/\\t/g, "\\t")
+        .replace(/\\b/g, "\\b")
+        .replace(/\\f/g, "\\f");
+    // remove non-printable and other non-valid JSON chars
+    dataString = dataString.replace(/[\u0000-\u0019]+/g, "");
+    var currentData = JSON.parse(dataString)[currentClass]; //Get data for current class
     document.getElementById('dataClass').innerHTML = currentData.class;
-    document.getElementById('dataIndex').innerHTML = currentData.id;
+    document.getElementById('dataIndex').innerHTML = "Period " + currentData.id;
     document.getElementById('dataBody').innerHTML = currentData.body;
 
     function refreshPage() {

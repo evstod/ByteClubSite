@@ -392,7 +392,6 @@ C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\bin\Debug\netcoreapp3.1\M
 C:\Users\edsto\Creative Cloud Files\repos\ByteClubSite\obj\Debug\netcoreapp3.1\Razor\Pages\Minecraft.cshtml.g.cs
 C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\Pages\Screen\data\schedule.json
 C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\ByteClubSite.StaticWebAssets.xml
 C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\ByteClubSite.exe
 C:\Users\Evan Stoddard\Source\Repos\probablyatraitor\ByteClubSite\bin\Debug\netcoreapp3.1\ByteClubSite.deps.json

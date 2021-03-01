@@ -33,7 +33,7 @@ namespace ByteClubSite.Pages.Screen
         {
             if (HttpContext.Session.GetInt32("access") < 1 || HttpContext.Session.GetInt32("access") == null)
             {
-                return RedirectToPage("ErrorAccessDenied");
+                return RedirectToPage("/ErrorAccessDenied");
             }
             Agenda = await _db.Agenda.FindAsync(id);
 

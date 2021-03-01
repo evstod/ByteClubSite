@@ -15,6 +15,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Screen\data\schedule.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Pages\Screen\data\schedule.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.0.0" />
     <PackageReference Include="Azure.Identity" Version="1.2.2" />
     <PackageReference Include="CurrieTechnologies.Razor.SweetAlert2" Version="4.3.1" />
