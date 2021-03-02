@@ -20,10 +20,14 @@ namespace ByteClubSite.Pages.Screen
 
         public List<Agenda> Agendas;
         public List<long> AgendasList = new List<long>();
-        public int ScheduleTimings = 0; //DEBUG
+        public int ScheduleTimings = 0;
         public int CurrentClassIndex = 0;
         public async Task OnGet()
         {
+            var jsonFileReader = System.IO.File.OpenText("Pages/Screen/data/schedule.csv");
+            ScheduleTimings = jsonFileReader.ReadToEnd().Split("\n")[0][5] - 48;
+            jsonFileReader.Close();
+
             Agendas = await _db.Agenda.ToListAsync();
 
             foreach (var item in Agendas)

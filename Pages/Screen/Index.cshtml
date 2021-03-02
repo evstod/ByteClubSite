@@ -58,6 +58,8 @@
     @*<script src="~/js/ScreenTimes.js"></script>*@
 <script>
     var startTimes = JSON.parse('@Html.Raw(Json.Serialize(Model.AgendasList))'); //List of start times as milliseconds since EPOC
+    console.log(startTimes);
+    console.log(@Model.ScheduleTimings);
     var dateNow = new Date();
     var currentClass, nextClass; //Indexes of classes
     var currentData; //Data for current class
