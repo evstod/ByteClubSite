@@ -27,12 +27,12 @@ namespace ByteClubSite.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            var userFromDb = await _db.BlogPost.FirstOrDefaultAsync(u => u.Id == id);
+            var userFromDb = await _db.UserLogin.FirstOrDefaultAsync(u => u.Id == id);
             if (userFromDb == null)
             {
                 return Json(new { success = false, message = "Error while Deleting" });
             }
-            _db.BlogPost.Remove(userFromDb);
+            _db.UserLogin.Remove(userFromDb);
             await _db.SaveChangesAsync();
             return Json(new { success = true, message = "Delete Successful" });
         }
