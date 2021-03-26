@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {}
+    "D:\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {
+    "D:\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+        "projectUniqueName": "D:\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
         "projectName": "ByteClubSite",
-        "projectPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+        "projectPath": "D:\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
         "packagesPath": "C:\\Users\\Evan Stoddard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\obj\\",
+        "outputPath": "D:\\repos\\probablyatraitor\\ByteClubSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Evan Stoddard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -105,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6gR9glI8O3M6xseeFYr0be1afWL7TboKwH7Qg2sniEKQF2cg6nWlnkG+3cOAUKPTBiYz2PRzJn94FH0CamQl7w==",
+  "dgSpecHash": "5j5dRmDHnkdA2NwHi+P7//f8JObncidfC8cGlhp3os3EwpFABoQrs8Xnd95l4rySwc2VuhZH7xrzcDArtTGOHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Evan Stoddard\\source\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
+  "projectFilePath": "D:\\repos\\probablyatraitor\\ByteClubSite\\ByteClubSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
     "C:\\Users\\Evan Stoddard\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.0.0\\azure.extensions.aspnetcore.configuration.secrets.1.0.0.nupkg.sha512",
