@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 function loadDataTable() {
 	dataTable = $('#DT_load').DataTable({
+		"order": [[2, 'asc']],
 		"ajax": {
 			"url": "/api/agenda",
 			"type": "GET",
@@ -14,7 +15,7 @@ function loadDataTable() {
 		"columns": [
 			{ "data": "class", "width": "20%" },
 			{
-				"data": "body", "width": "50%", scrollY: 100,
+				"data": "body", "width": "70%", scrollY: 100,
 				scroller: {
 					rowHeight: 100
 				},
@@ -28,11 +29,11 @@ function loadDataTable() {
 					return `<div class="text-center">
 						<a href="/Screen/Edit?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:70px;">Edit</a>
 						</div>`;
-				}, "width": "30%"
+				}, "width": "10%"
 			}
 		],
 		"language": {
-			"emptyTables": "no data found"
+			"emptyTables": "no data found."
 		},
 		"width": "100%"
 	})

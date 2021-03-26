@@ -2,8 +2,6 @@
 @model ByteClubSite.Pages.Screen.ManageModel
 @{
 }
-<<<<<<< Updated upstream
-=======
 
 <table id="DT_load" class="table table-striped table-bordered text-light" style="width:100%">
     <thead>
@@ -14,8 +12,39 @@
         </tr>
     </thead>
 </table>
+<br />
+<div class="text-light">
+    @{ 
+        if (Model.jsonStr[0].Equals("type:0"))
+        {
+        <p>Current Schedule Type: Normal</p>
+        }
+        else if (Model.jsonStr[0].Equals("type:1"))
+        {
+        <p>Current Schedule Type: Late Start</p>
+        }
+        else if (Model.jsonStr[0].Equals("type:2"))
+        {
+        <p>Current Schedule Type: Early Dismissal</p>
+        }
+        else if (Model.jsonStr[0].Equals("type:3"))
+        {
+        <p>Current Schedule Type: Activity</p>
+        }
+        else
+        {
+        <p>@Model.jsonStr[0]</p>
+        }
+    }
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <p><a class="btn btn-light" asp-page-handler="ChangeScheduleTimings" asp-route-s="0">Enable Normal Schedule</a></p>
+    <p><a class="btn btn-light" asp-page-handler="ChangeScheduleTimings" asp-route-s="1">Enable Late Start Schedule</a></p>
+    <p><a class="btn btn-light" asp-page-handler="ChangeScheduleTimings" asp-route-s="2">Enable Early Dismissal Schedule</a></p>
+    <p><a class="btn btn-light" asp-page-handler="ChangeScheduleTimings" asp-route-s="3">Enable Activity Schedule</a></p>
+    <p><a class="btn btn-success" asp-page="EditSchedule">Edit Schedule Times</a></p>
+</div>
+</div>
 
 @section Scripts{
     <script src="~/js/ManageAgenda.js"></script>
 }
->>>>>>> Stashed changes

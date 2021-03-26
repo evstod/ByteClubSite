@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "secrets1": {
+    "secrets2": {
       "type": "secrets.user"
     },
     "mssql1": {
-      "resourceId": null,
-      "type": "mssql.local",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/byteclub/databases/byteclub_db",
+      "type": "mssql.azure",
       "connectionId": "DefaultConnection",
       "secretStore": "LocalSecretsFile"
     }

@@ -1,0 +1,107 @@
+﻿@page
+@model ByteClubSite.Pages.Screen.EditScheduleModel
+@{ }
+@using ByteClubSite.Models;
+<form method="post" enctype="multipart/form-data">
+    <table id="DT_load" class="table table-striped table-bordered text-light" style="width:100%">
+        <thead>
+            <tr>
+                <th>Period</th>
+                <th>Class</th>
+                <th>Start Time</th>
+                <th>Start Time (late Start)</th>
+                <th>Start Time (Early Dismiss)</th>
+                <th>Start Time (Activity Schedule)</th>
+                <th>Active</th>
+            </tr>
+            @{ 
+                for (int i = 0; i < Model.Agendas.Count(); i++)
+                {
+                        <tr>
+                            <td>@Model.Agendas[i].Id</td>
+                            <td>
+                                <div>
+                                    @{ //This part checks if the Agenda is active, and adds the disabled attribute as necessary
+                                        if (Model.Agendas[i].Active)
+                                        {
+                                            <input asp-for="@Model.Agendas[i].Class" class="form-control" id="@(Model.Agendas[i].Id + "" + 'a')" />
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="@Model.Agendas[i].Class" class="form-control" id="@(Model.Agendas[i].Id + "" + 'a')" disabled value="Inactive"/>
+                                        }
+                                    }
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].Class" class="text-danger"></span>
+                            </td>
+                            <td style="display: none"><input type="hidden" asp-for="@Model.Agendas[i].Body" /></td>
+                            <td>
+                                <div>
+                                    <input asp-for="@Model.Agendas[i].StartTime" class="form-control" type="time" />
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].StartTime" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <div>
+                                    <input asp-for="@Model.Agendas[i].StartLate" class="form-control" type="time" />
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].StartLate" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <div>
+                                    <input asp-for="@Model.Agendas[i].StartEarlyDismiss" class="form-control" type="time" />
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].StartEarlyDismiss" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <div>
+                                    <input asp-for="@Model.Agendas[i].StartActivity" class="form-control" type="time" />
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].StartActivity" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <div>
+                                    <input asp-for="@Model.Agendas[i].Active" class="form-control" type="checkbox" id="@(Model.Agendas[i].Id + "" + 'b')"/>
+                                </div>
+                                <br />
+                                <span asp-validation-for="@Model.Agendas[i].Active" class="text-danger"></span>
+                            </td>
+                        </tr>
+                }
+            }
+        </thead>
+    </table>
+    <input type="submit" value="Update" class="btn btn-primary form-control" />
+</form>
+
+
+
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    @{ 
+        for (int i = 0; i < Model.Agendas.Count(); i++)
+        {
+        <script>
+                $('#' + @Model.Agendas[i].Id + 'b').on('change', function () {
+                    console.log("a " + $('#' + @Model.Agendas[i].Id + 'b:checked').val());
+                    if (!$('#' + @Model.Agendas[i].Id + 'b:checked').val()) {
+                        $('#' + @Model.Agendas[i].Id + 'a').val('Inactive');
+                        $('#' + @Model.Agendas[i].Id + 'a').attr('disabled', "true");
+                        console.log("if");
+                    }
+                    else {
+                        $('#' + @Model.Agendas[i].Id + 'a').removeAttr('disabled');
+                        console.log("else");
+                    }
+                });
+        </script>
+        }
+    }
+}
+

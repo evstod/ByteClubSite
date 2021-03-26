@@ -10,16 +10,16 @@ namespace ByteClubSite.Pages
 {
     public class ErrorAccessDeniedModel : PageModel
     {
-        public string Msg { get; set; }
+        public bool LoginMsg { get; set; }
         public void OnGet()
         {
             if (HttpContext.Session.GetString("username") == null)
             {
-                Msg = "You are not logged in<p><a asp-page=\"/Login\">Go to Login</a></p>";
+                LoginMsg = false;
             }
             else
             {
-                Msg = "<h3>You do not have permission to view this page.</h3>";
+                LoginMsg = true;
             }
         }
     }

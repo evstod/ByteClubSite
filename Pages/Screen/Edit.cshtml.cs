@@ -1,16 +1,11 @@
 using System;
 using System.Collections.Generic;
-<<<<<<< Updated upstream
 using System.Linq;
 using System.Threading.Tasks;
-=======
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using ByteClubSite.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
->>>>>>> Stashed changes
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -18,10 +13,6 @@ namespace ByteClubSite.Pages.Screen
 {
     public class EditModel : PageModel
     {
-<<<<<<< Updated upstream
-        public void OnGet()
-        {
-=======
 
         private IWebHostEnvironment _environment;
         private readonly ApplicationDbContext _db;
@@ -36,13 +27,18 @@ namespace ByteClubSite.Pages.Screen
 
         [BindProperty]
         public Agenda Agenda { get; set; }
+        public string displayClass { get; set; } //for display on page
+        public int displayPeriod { get; set; } //for display on page
         public async Task<IActionResult> OnGet(int id)
         {
             if (HttpContext.Session.GetInt32("access") < 1 || HttpContext.Session.GetInt32("access") == null)
             {
-                return RedirectToPage("ErrorAccessDenied");
+                return RedirectToPage("/ErrorAccessDenied");
             }
             Agenda = await _db.Agenda.FindAsync(id);
+
+            displayClass = Agenda.Class;
+            displayPeriod = Agenda.Id;
             return Page();
         }
 
@@ -71,7 +67,6 @@ namespace ByteClubSite.Pages.Screen
             {
                 return RedirectToPage("Index");
             }
->>>>>>> Stashed changes
         }
     }
 }
