@@ -819,3 +819,9 @@ C:\Users\edsto\Documents\repos\ByteClubSite\obj\Release\netcoreapp3.1\ByteClubSi
 C:\Users\edsto\Documents\repos\ByteClubSite\obj\Release\netcoreapp3.1\ByteClubSite.dll
 C:\Users\edsto\Documents\repos\ByteClubSite\obj\Release\netcoreapp3.1\ByteClubSite.pdb
 C:\Users\edsto\Documents\repos\ByteClubSite\obj\Release\netcoreapp3.1\ByteClubSite.genruntimeconfig.cache
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\web.config
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\appsettings.Development.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\appsettings.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\ByteClubSite.deps.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\ByteClubSite.runtimeconfig.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Pages\Screen\data\schedule.json
