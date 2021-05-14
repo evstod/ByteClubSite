@@ -825,3 +825,9 @@ C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\ap
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\ByteClubSite.deps.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\ByteClubSite.runtimeconfig.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Pages\Screen\data\schedule.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\web.config
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\appsettings.Development.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\appsettings.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\ByteClubSite.deps.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\ByteClubSite.runtimeconfig.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\Release\Release\Pages\Screen\data\schedule.json
