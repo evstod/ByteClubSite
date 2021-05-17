@@ -1621,3 +1621,10 @@ C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Rele
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\ByteClubSite.deps.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\ByteClubSite.runtimeconfig.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Pages\Screen\data\schedule.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\web.config
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\appsettings.production.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\appsettings.Development.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\appsettings.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\ByteClubSite.deps.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\ByteClubSite.runtimeconfig.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Debug\netcoreapp3.1\Release\Release\Release\Release\Pages\Screen\data\schedule.json
