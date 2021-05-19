@@ -415,3 +415,17 @@ C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\ByteClubSite.deps.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\ByteClubSite.runtimeconfig.json
 C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Pages\Screen\data\schedule.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\web.config
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\appsettings.production.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\appsettings.Development.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\appsettings.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\ByteClubSite.deps.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\ByteClubSite.runtimeconfig.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Pages\Screen\data\schedule.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\web.config
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\appsettings.production.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\appsettings.Development.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\appsettings.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\ByteClubSite.deps.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\ByteClubSite.runtimeconfig.json
+C:\Users\edsto\Documents\repos\ByteClubSite\bin\Release\netcoreapp3.1\linux-x64\Release\Release\Release\Release\Release\Release\Pages\Screen\data\schedule.json
