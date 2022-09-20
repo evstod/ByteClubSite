@@ -1,6 +1,6 @@
 # ByteClubSite
  
-##Archived Project
+## Archived Project
 
 This was a project created an independent study of .NET Core and the asset pipeline.
 
